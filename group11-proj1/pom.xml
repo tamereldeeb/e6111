@@ -16,6 +16,11 @@
 			    <artifactId>commons-lang3</artifactId>
 			    <version>3.4</version>
 			</dependency>
+			<dependency>
+				<groupId>rome</groupId>
+				<artifactId>rome</artifactId>
+				<version>1.0</version>
+			</dependency>
                 <!-- <dependency>
                         <groupId>junit</groupId>
                         <artifactId>junit</artifactId>
@@ -43,12 +48,12 @@
 								</transformers>
 								<artifactSet>
 									<excludes>
-										<exclude>classworlds:classworlds</exclude>
+										<!--<exclude>classworlds:classworlds</exclude>-->
 										<exclude>junit:junit</exclude>
-										<exclude>jmock:*</exclude>
-										<exclude>*:xml-apis</exclude>
-										<exclude>org.apache.maven:lib:tests</exclude>
-										<exclude>log4j:log4j:jar:</exclude>
+										<!--<exclude>jmock:*</exclude>-->
+										<!--<exclude>*:xml-apis</exclude>-->
+										<!--<exclude>org.apache.maven:lib:tests</exclude>-->
+										<!--<exclude>log4j:log4j:jar:</exclude>-->
 									</excludes>
 								</artifactSet>
 							</configuration>
