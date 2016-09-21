@@ -1,4 +1,6 @@
-import services.BingService;
+package com.group11proj1;
+
+import com.group11proj1.services.BingService;
 
 import java.io.IOException;
 

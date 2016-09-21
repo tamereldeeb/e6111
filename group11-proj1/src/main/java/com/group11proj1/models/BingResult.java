@@ -1,5 +1,5 @@
-package models;
-
+package com.group11proj1.models;
+ 
 public class BingResult {
 
 	String url;

@@ -1,17 +1,10 @@
-package services;
+package com.group11proj1.services;
 
-import models.BingResult;
+import com.group11proj1.models.BingResult;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Properties;
 import java.util.ArrayList;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 import java.net.URL;
 import java.net.URLConnection;
 
@@ -41,17 +34,17 @@ public class BingService {
 			String accountKeyEnc = new String(accountKeyBytes);
 
 			URL url = new URL(bingUrl);
-			URLConnection urlConnection = url.openConnection();
-			urlConnection.setRequestProperty("Authorization", "Basic " + accountKeyEnc);
+			 URLConnection urlConnection = url.openConnection();
+			 urlConnection.setRequestProperty("Authorization", "Basic " + accountKeyEnc);
 
-			InputStream inputStream = (InputStream) urlConnection.getContent();
-			byte[] contentRaw = new byte[urlConnection.getContentLength()];
-			inputStream.read(contentRaw);
-			String content = new String(contentRaw);
+			 InputStream inputStream = (InputStream) urlConnection.getContent();
+			 byte[] contentRaw = new byte[urlConnection.getContentLength()];
+			 inputStream.read(contentRaw);
+			 String content = new String(contentRaw);
 			
 			//TODO parse results
 			System.out.println("======================");
-			System.out.println(content);
+			 System.out.println(content);
 			// return parseResults(content);
 			return new ArrayList<BingResult>();
 
