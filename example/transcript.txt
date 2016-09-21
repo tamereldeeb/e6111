@@ -1,0 +1,189 @@
+
+=====================================
+ROUND 1
+QUERY musk
+
+Result 1
+Relevant: NO
+[
+ URL: https://en.wikipedia.org/wiki/Musk
+ Title: Musk - Wikipedia, the free encyclopedia
+ Summary: Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+
+
+Result 2
+Relevant: NO
+[
+ URL: http://www.dictionary.com/browse/musk
+ Title: Musk | Define Musk at Dictionary.com
+ Summary: Musk definition, a substance secreted in a glandular sac under the skin of the abdomen of the male musk deer, having a strong odor, and used in perfumery. See more.
+]
+
+
+Result 3
+Relevant: NO
+[
+ URL: http://www.merriam-webster.com/dictionary/musk
+ Title: Musk | Definition of Musk by Merriam-Webster
+ Summary: :a strong-smelling material that is used in perfumes and is obtained from a gland of an Asian deer (musk deer) or is prepared artificially
+]
+
+
+Result 4
+Relevant: NO
+[
+ URL: http://www.thefreedictionary.com/musk
+ Title: Musk - definition of musk by The Free Dictionary
+ Summary: musk (mŭsk) n. 1. a. A greasy secretion with a powerful odor, produced in a glandular sac in the abdomen of a male musk deer and used in traditional medicines and ...
+]
+
+
+Result 5
+Relevant: NO
+[
+ URL: http://www.fragrantica.com/notes/Musk-4.html
+ Title: Musk perfume ingredient, Musk fragrance and essential oils ...
+ Summary: Musk is a whole class of fragrant substances used as base notes in perfumery. This wonderful animalistic note creates a groundwork on which the rest of the aromatic ...
+]
+
+
+Result 6
+Relevant: YES
+[
+ URL: http://www.forbes.com/profile/elon-musk/
+ Title: Elon Musk - Forbes
+ Summary: Elon Musk is trying to redefine transportation on earth and in space. Through Tesla Motors, he is aiming to bring fully-electric vehicles to the mass market; at ...
+]
+
+
+Result 7
+Relevant: YES
+[
+ URL: https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/0062301233
+ Title: Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic ...
+ Summary: In Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future, veteran technology journalist Ashlee Vance provides the first inside look into the extraordinary ...
+]
+
+
+Result 8
+Relevant: YES
+[
+ URL: https://www.theguardian.com/technology/elon-musk
+ Title: Elon Musk | Technology | The Guardian
+ Summary: Elon Musk: launch pad accident ‘most difficult failure' in SpaceX’s history
+]
+
+
+Result 9
+Relevant: YES
+[
+ URL: https://en.wikipedia.org/wiki/Elon_Musk
+ Title: Elon Musk - Wikipedia, the free encyclopedia
+ Summary: Elon Reeve Musk (/ ˈ iː l ɒ n ˈ m ʌ s k /; born June 28, 1971) is a South African-born Canadian-American business magnate, investor, engineer and inventor.
+]
+
+
+Result 10
+Relevant: NO
+[
+ URL: http://www.musktechnologies.com.s3-website-us-west-2.amazonaws.com/
+ Title: Musk
+ Summary: At Musk, we believe technology creates magic. We believe a full-stack tech-enabled lending platform is the magic required to bridge the financing gap crippling ...
+]
+
+PRECISION 0.4
+=====================================
+ROUND 2
+QUERY musk elon tesla
+
+Result 1
+Relevant: YES
+[
+ URL: http://money.cnn.com/2016/09/06/technology/elon-musk-tesla-profit/index.html
+ Title: Elon Musk to Tesla employees: Let's make a profit! - Sep ...
+ Summary: Elon Musk is really interested in turning a profit. He recently implored Tesla employees to "deliver every car we possibly can" and slash costs wherever ...
+]
+
+
+Result 2
+Relevant: YES
+[
+ URL: http://www.latimes.com/business/la-fi-tesla-autopilot-musk-20160910-snap-story.html
+ Title: Tesla's Autopilot shift to radar might have saved the life ...
+ Summary: Elon Musk revealed “dramatic improvements” to the Tesla's Autopilot technology on Sunday, shifting to radar — and not just cameras -- to help the car s
+]
+
+
+Result 3
+Relevant: YES
+[
+ URL: http://www.nytimes.com/2016/09/12/business/elon-musk-says-pending-tesla-updates-could-have-prevented-fatal-crash.html
+ Title: Elon Musk Says Pending Tesla Updates Could Have Prevented ...
+ Summary: Elon Musk, chief executive of Tesla Motors, in 2015. The carmaker has faced increased scrutiny after a crash in May that killed a driver operating his ...
+]
+
+
+Result 4
+Relevant: YES
+[
+ URL: http://www.cnbc.com/elon-musk/
+ Title: Elon Musk - CNBC
+ Summary: Elon Musk says Tesla is updating its autopilot feature that will depend more on radar than cameras, reports CNBC's Landon Dowdy. Tesla update could take autopilot to ...
+]
+
+
+Result 5
+Relevant: YES
+[
+ URL: https://en.wikipedia.org/wiki/Elon_Musk
+ Title: Elon Musk - Wikipedia, the free encyclopedia
+ Summary: Elon Musk: The mind behind Tesla, SpaceX, SolarCity, ted.com. Retrieved April 27, 2014; Musk, Elon (January 6, 2015). "I am Elon Musk, CEO/CTO of a rocket company, AMA!".
+]
+
+
+Result 6
+Relevant: YES
+[
+ URL: http://www.usatoday.com/story/money/cars/2016/09/11/tesla-ceo-elon-musk-announces-autopilot-improvements/90231268/
+ Title: Elon Musk: New Tesla self-driving upgrade could have ...
+ Summary: Elon Musk: New Tesla self-driving upgrade could have avoided crash. Tesla Motors said Sunday the system will be more dependent on radar, rather than cameras
+]
+
+
+Result 7
+Relevant: YES
+[
+ URL: http://www.huffingtonpost.com/entry/musk-tesla-autopilot-update_us_57d5d31de4b00642712e174a
+ Title: Elon Musk: Tesla Autopilot Update Could Have Prevented ...
+ Summary: Elon Musk: Tesla Autopilot Update Could Have Prevented Fatal Crash The new system will rely on radar to orient the cars, and come with other safety features.
+]
+
+
+Result 8
+Relevant: YES
+[
+ URL: http://fortune.com/2016/09/12/elon-musk-tesla-new-autopilot-death/
+ Title: Elon Musk Says Tesla’s New Autopilot Likely Would Have ...
+ Summary: Tesla CEO Elon Musk said the automaker was updating its Autopilot with improvements that likely would have prevented a fatality in May.
+]
+
+
+Result 9
+Relevant: YES
+[
+ URL: http://www.businessinsider.com/elon-musk-tesla-problems-2016-9
+ Title: Elon Musk faces challenges at Tesla - Business Insider
+ Summary: Elon Musk is far more than a technology or business superstar. His fame is far-reaching, and his fortune is vast. His companies are captivating in ways ...
+]
+
+
+Result 10
+Relevant: NO
+[
+ URL: https://www.tesla.com/about/executives/
+ Title: About Tesla | Tesla
+ Summary: In late 2014, Tesla CEO Elon Musk unveiled two dual motor all-wheel drive configurations of Model S that further improve the vehicle’s handling and performance.
+]
+
+PRECISION 0.9
