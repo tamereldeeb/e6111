@@ -31,6 +31,7 @@ public class BingService {
 	String accountKey;
 	Double precisionTarget;
 	String query;
+	int round = 1;
 	
 	public BingService(String accountKey, String precisionTarget, String query) {
 		this.accountKey = accountKey;
@@ -65,13 +66,12 @@ public class BingService {
 			System.out.println("Bing Search Results:");
 			System.out.println("======================");
 
-			if (resultSize < 1) {
-				System.out.println("No results returned, terminated.");
-				return false; // empty list
+			if (round == 1 && resultSize < 10) {
+				System.out.println("Too few results returned, terminated.");
+				return false;
 			}
 
 			// process results
-			ArrayList<BingResult> results = new ArrayList<BingResult>();
 			double relevant = 0.0;
 			int counter = 0;
 			for (Iterator<?> entryIter = feed.getEntries().iterator();entryIter.hasNext();) {
@@ -98,7 +98,6 @@ public class BingService {
 						System.out.println("  Summary: " + result.getSummary());
 						System.out.println("]");
 						System.out.println("");
-						results.add(result);
 
 						// ask for user input
 						Scanner reader = new Scanner(System.in);
@@ -130,6 +129,7 @@ public class BingService {
 
 				System.out.println("Augmenting by " + augment);
 				this.query += " " + augment;
+				this.round++;
 				return true;
 			}
 
