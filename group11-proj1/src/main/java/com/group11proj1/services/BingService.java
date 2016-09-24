@@ -2,8 +2,7 @@ package com.group11proj1.services;
 
 import com.group11proj1.models.BingResult;
 
-import java.io.IOException;
-import java.io.StringReader;
+import java.io.*;
 import java.net.URLEncoder;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -39,7 +38,7 @@ public class BingService {
 		this.query = query;
 	};
 	
-	public Boolean call() throws IOException {
+	public Boolean call(Writer writer) throws IOException {
 		System.out.println("Parameters:");
 		System.out.println("Client key: " + accountKey);
 		System.out.println("Query: " + query);
@@ -71,11 +70,19 @@ public class BingService {
 				return false;
 			}
 
+			String separator = System.lineSeparator();
+			writer.write("=====================================" + separator);
+			writer.write("ROUND " + round + separator);
+			writer.write("QUERY " + query + separator);
+
 			// process results
 			double relevant = 0.0;
 			int counter = 0;
 			for (Iterator<?> entryIter = feed.getEntries().iterator();entryIter.hasNext();) {
-				System.out.println("Result " + ++counter);
+				String resultString = "Result " + ++counter;
+				System.out.println(resultString);
+				writer.write(separator + resultString + separator);
+
 				SyndEntry entry = (SyndEntry) entryIter.next();
 				SyndContent content = (SyndContent) (entry.getContents().get(0));
 				String xml = content.getValue();
@@ -104,7 +111,16 @@ public class BingService {
 						System.out.print("Relevant (Y/N)?");
 						if (reader.next().toLowerCase().equals("y")) {
 							relevant++;
+							writer.write("Relevant: YES " + separator);
+						} else {
+							writer.write("Relevant: NO " + separator);
 						}
+						writer.write("[" + separator);
+						writer.write("  URL: " + result.getUrl() + separator);
+						writer.write("  Title: " + result.getTitle() + separator);
+						writer.write("  Summary: " + result.getSummary() + separator);
+						writer.write("]" + separator);
+						writer.write(separator);
 					}
 				}
 			}
@@ -113,7 +129,9 @@ public class BingService {
 			System.out.println("======================");
 			System.out.println("FEEDBACK SUMMARY");
 			System.out.println("Query: " + query);
-			System.out.println("Precision: " + new DecimalFormat("#0.0").format(precision));
+			String precisionString = new DecimalFormat("#0.0").format(precision);
+			System.out.println("Precision: " + precisionString);
+			writer.write("PRECISION: " + precisionString);
 
 			if (precision < precisionTarget) {
 				System.out.println("Still below the desired precision of " + precisionTarget);
