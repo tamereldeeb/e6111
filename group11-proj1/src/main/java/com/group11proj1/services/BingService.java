@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 import com.sun.syndication.feed.synd.SyndContent;
@@ -28,25 +29,16 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class BingService {
 
 	String accountKey;
-	Double precisionTarget;
-	String query;
 	int round = 1;
 	
-	public BingService(String accountKey, String precisionTarget, String query) {
+	public BingService(String accountKey) {
 		this.accountKey = accountKey;
-		this.precisionTarget = Double.parseDouble(precisionTarget);
-		this.query = query;
 	};
-	
-	public Boolean call(Writer writer) throws IOException {
-		System.out.println("Parameters:");
-		System.out.println("Client key: " + accountKey);
-		System.out.println("Query: " + query);
-		System.out.println("Precision: " + precisionTarget);
 
+	public List<BingResult> query(String query) throws IOException {
+		List<BingResult> results = new ArrayList<>();
 		String bingUrl = buildUrl(query);
-		System.out.println("URL: " + bingUrl);
-		
+
 		try {
 			// connect to Bing service
 			byte[] accountKeyBytes = Base64.encodeBase64((accountKey + ":" + accountKey).getBytes());
@@ -59,30 +51,8 @@ public class BingService {
 			SyndFeedInput input = new SyndFeedInput();
 			SyndFeed feed = input.build(new XmlReader(urlConnection));
 
-			int resultSize = feed.getEntries().size();
-
-			System.out.println("Total no of results : " + resultSize);
-			System.out.println("Bing Search Results:");
-			System.out.println("======================");
-
-			if (round == 1 && resultSize < 10) {
-				System.out.println("Too few results returned, terminated.");
-				return false;
-			}
-
-			String separator = System.lineSeparator();
-			writer.write("=====================================" + separator);
-			writer.write("ROUND " + round + separator);
-			writer.write("QUERY " + query + separator);
-
-			// process results
-			double relevant = 0.0;
-			int counter = 0;
-			for (Iterator<?> entryIter = feed.getEntries().iterator();entryIter.hasNext();) {
-				String resultString = "Result " + ++counter;
-				System.out.println(resultString);
-				writer.write(separator + resultString + separator);
-
+			Iterator<?> entryIter = feed.getEntries().iterator();
+			while (entryIter.hasNext()) {
 				SyndEntry entry = (SyndEntry) entryIter.next();
 				SyndContent content = (SyndContent) (entry.getContents().get(0));
 				String xml = content.getValue();
@@ -96,69 +66,20 @@ public class BingService {
 				NodeList nList = document.getElementsByTagName("m:properties");
 				for (int temp = 0; temp < nList.getLength(); temp++) {
 					Node nNode = nList.item(temp);
-					if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-						Element eElement = (Element) nNode;
-						BingResult result = new BingResult(eElement.getElementsByTagName("d:Url").item(0).getTextContent(), eElement.getElementsByTagName("d:Title").item(0).getTextContent(), eElement.getElementsByTagName("d:Description").item(0).getTextContent());
-						System.out.println("[");
-						System.out.println("  URL: " + result.getUrl());
-						System.out.println("  Title: " + result.getTitle());
-						System.out.println("  Summary: " + result.getSummary());
-						System.out.println("]");
-						System.out.println("");
-
-						// ask for user input
-						Scanner reader = new Scanner(System.in);
-						System.out.print("Relevant (Y/N)?");
-						if (reader.next().toLowerCase().equals("y")) {
-							relevant++;
-							writer.write("Relevant: YES " + separator);
-						} else {
-							writer.write("Relevant: NO " + separator);
-						}
-						writer.write("[" + separator);
-						writer.write("  URL: " + result.getUrl() + separator);
-						writer.write("  Title: " + result.getTitle() + separator);
-						writer.write("  Summary: " + result.getSummary() + separator);
-						writer.write("]" + separator);
-						writer.write(separator);
-					}
+					Element eElement = (Element) nNode;
+					BingResult result = new BingResult(
+							eElement.getElementsByTagName("d:Url").item(0).getTextContent(),
+							eElement.getElementsByTagName("d:Title").item(0).getTextContent(),
+							eElement.getElementsByTagName("d:Description").item(0).getTextContent());
+					results.add(result);
 				}
 			}
-
-			Double precision =  relevant/counter;
-			System.out.println("======================");
-			System.out.println("FEEDBACK SUMMARY");
-			System.out.println("Query: " + query);
-			String precisionString = new DecimalFormat("#0.0").format(precision);
-			System.out.println("Precision: " + precisionString);
-			writer.write("PRECISION: " + precisionString);
-
-			if (precision < precisionTarget) {
-				System.out.println("Still below the desired precision of " + precisionTarget);
-
-				if (precision < 0.1) {
-					System.out.println("Below desired precision, but can no longer augment the query");
-					return false;
-				}
-
-				// TODO figure out query augmentation
-				System.out.println("Indexing results...");
-				String augment = "TODO TODO";
-
-				System.out.println("Augmenting by " + augment);
-				this.query += " " + augment;
-				this.round++;
-				return true;
-			}
-
-			System.out.println("Desired precision reached, done");
-			return false;
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
+			return null;
 		}
-		
-		return null;
+		return results;
 	}
 	
 	private String buildUrl(String query) {
