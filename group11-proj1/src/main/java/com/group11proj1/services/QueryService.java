@@ -5,9 +5,25 @@ import com.group11proj1.models.BingResult;
 import java.io.IOException;
 import java.io.Writer;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
+
+class CandidateWord implements Comparable<CandidateWord> {
+    public String word;
+    public int rdf = 0;
+    public int tf = 0;
+
+    public CandidateWord(String w) {
+        this.word = w;
+    }
+
+    public int compareTo(CandidateWord w) {
+        if (this.rdf == w.rdf) {
+            return w.tf - this.tf;
+        }
+        return w.rdf - this.rdf;
+    }
+}
 
 public class QueryService {
 
@@ -86,9 +102,72 @@ public class QueryService {
                 return;
             }
 
-            // TODO: augment query.
-            System.out.println("Query should be augmented here to improve precision");
-            return;
+            query = modifyQuery(query, relevant, irrelevant);
         }
     }
+
+    private String modifyQuery(String query, List<BingResult> relevant, List<BingResult> irrelevant) {
+        Map<String, CandidateWord> candidates = new HashMap<>();
+        Set<String> excluded = new HashSet<>();
+
+        List<String> queryWords = getAsWords(query);
+        excluded.addAll(queryWords);
+
+        for (BingResult r : irrelevant) {
+            excluded.addAll(getAsWords(r.getTitle()));
+            excluded.addAll(getAsWords(r.getSummary()));
+        }
+
+        for (BingResult r : relevant) {
+            Map<String, Integer> documentWords = new HashMap<>();
+            for (String s : getAsWords(r.getTitle())) {
+                if (!excluded.contains(s)) {
+                    int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
+                    documentWords.put(s, ++count);
+                }
+            }
+
+            for (String s : getAsWords(r.getSummary())) {
+                if (!excluded.contains(s)) {
+                    int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
+                    documentWords.put(s, ++count);
+                }
+            }
+
+            for (String w : documentWords.keySet()) {
+                if (!candidates.containsKey(w)) {
+                    candidates.put(w, new CandidateWord(w));
+                }
+
+                CandidateWord cw = candidates.get(w);
+                cw.rdf++;
+                cw.tf += documentWords.get(w);
+            }
+        }
+
+        List<CandidateWord> sortedCandidates = candidates.values().stream().sorted().collect(Collectors.toList());
+
+        // TODO: determine the best order of the words.
+        queryWords.add(sortedCandidates.get(0).word);
+        StringBuilder res = new StringBuilder();
+        queryWords.forEach(s -> res.append(s));
+        return res.toString();
+    }
+
+    private List<String> getAsWords(String text) {
+        ArrayList<String> res = new ArrayList<>();
+        String[] words = text.split("\\s+");
+        // remove punctuation if it exists
+        for (int i = 0; i < words.length; i++) {
+            if (!Character.isAlphabetic(words[i].charAt(words[i].length()-1))) {
+                words[i] = words[i].substring(0, words[i].length()-1);
+            }
+
+            if (words[i].length() <= 1)
+                continue;
+            res.add(words[i].toLowerCase());
+        }
+        return res;
+    }
+
 }

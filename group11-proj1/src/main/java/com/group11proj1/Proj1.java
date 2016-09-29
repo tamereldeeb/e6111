@@ -28,6 +28,5 @@ public class Proj1 {
             } catch (Exception ex) {//ignore}
             }
         }
-
     }
 }

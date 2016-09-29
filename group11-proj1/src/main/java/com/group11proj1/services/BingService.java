@@ -4,13 +4,11 @@ import com.group11proj1.models.BingResult;
 
 import java.io.*;
 import java.net.URLEncoder;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Scanner;
 
 import com.sun.syndication.feed.synd.SyndContent;
 import com.sun.syndication.feed.synd.SyndEntry;
@@ -29,7 +27,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class BingService {
 
 	String accountKey;
-	int round = 1;
 	
 	public BingService(String accountKey) {
 		this.accountKey = accountKey;
