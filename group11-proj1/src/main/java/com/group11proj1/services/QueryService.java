@@ -10,18 +10,23 @@ import java.util.stream.Collectors;
 
 class CandidateWord implements Comparable<CandidateWord> {
     public String word;
-    public int rdf = 0;
-    public int tf = 0;
+    public double rdp = 0;
+    public double idp = 0;
+    public int rtf = 0;
 
     public CandidateWord(String w) {
         this.word = w;
     }
 
+    public double getRelevanceScore() {
+        return rdp - idp;
+    }
+
     public int compareTo(CandidateWord w) {
-        if (this.rdf == w.rdf) {
-            return w.tf - this.tf;
+        if (this.getRelevanceScore() == w.getRelevanceScore()) {
+            return w.rtf - this.rtf;
         }
-        return w.rdf - this.rdf;
+        return (int)(w.getRelevanceScore() - this.getRelevanceScore());
     }
 }
 
@@ -120,35 +125,20 @@ public class QueryService {
         excluded.addAll(queryWords);
 
         for (BingResult r : irrelevant) {
-            excluded.addAll(getAsWords(r.getTitle()));
-            excluded.addAll(getAsWords(r.getSummary()));
+            processBingResult(r, false, candidates, excluded);
         }
 
         for (BingResult r : relevant) {
-            Map<String, Integer> documentWords = new HashMap<>();
-            for (String s : getAsWords(r.getTitle())) {
-                if (!excluded.contains(s)) {
-                    int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
-                    documentWords.put(s, ++count);
-                }
-            }
+            processBingResult(r, true, candidates, excluded);
+        }
 
-            for (String s : getAsWords(r.getSummary())) {
-                if (!excluded.contains(s)) {
-                    int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
-                    documentWords.put(s, ++count);
-                }
-            }
+        // normalize relevant document count and irrelevant document count as percentages.
+        for (CandidateWord cw : candidates.values()) {
+            cw.rdp /= relevant.size();
+            cw.rdp *= 100;
 
-            for (String w : documentWords.keySet()) {
-                if (!candidates.containsKey(w)) {
-                    candidates.put(w, new CandidateWord(w));
-                }
-
-                CandidateWord cw = candidates.get(w);
-                cw.rdf++;
-                cw.tf += documentWords.get(w);
-            }
+            cw.idp /= irrelevant.size();
+            cw.idp *= 100;
         }
 
         List<CandidateWord> sortedCandidates = candidates.values().stream().sorted().collect(Collectors.toList());
@@ -175,6 +165,38 @@ public class QueryService {
             res.add(words[i].toLowerCase());
         }
         return res;
+    }
+
+    private void processBingResult(BingResult r, boolean relevant, Map<String, CandidateWord> candidates,  Set<String> excluded) {
+        Map<String, Integer> documentWords = new HashMap<>();
+        for (String s : getAsWords(r.getTitle())) {
+            if (!excluded.contains(s)) {
+                int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
+                documentWords.put(s, ++count);
+            }
+        }
+
+        for (String s : getAsWords(r.getSummary())) {
+            if (!excluded.contains(s)) {
+                int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
+                documentWords.put(s, ++count);
+            }
+        }
+
+        for (String w : documentWords.keySet()) {
+            if (!candidates.containsKey(w)) {
+                candidates.put(w, new CandidateWord(w));
+            }
+
+            CandidateWord cw = candidates.get(w);
+            if (relevant) {
+                cw.rdp++;
+                cw.rtf += documentWords.get(w);
+            }
+            else {
+                cw.idp++;
+            }
+        }
     }
 
 }
