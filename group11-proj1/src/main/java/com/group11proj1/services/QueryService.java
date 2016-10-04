@@ -27,6 +27,11 @@ class CandidateWord implements Comparable<CandidateWord> {
 
 public class QueryService {
 
+    // This list is from ranks.nl/stopwords
+    private static final String[] STOP_WORDS = {"about", "an", "are", "as", "at", "be", "by", "com ", "for", "from",
+            "how", "in", "is", "it", "of", "on", "or", "that", "the", "this", "to", "was", "what", "when", "where",
+            "who", "will", "with", "www"
+    };
     private BingService bing;
 
     public QueryService(String accountKey) {
@@ -109,6 +114,7 @@ public class QueryService {
     private String modifyQuery(String query, List<BingResult> relevant, List<BingResult> irrelevant) {
         Map<String, CandidateWord> candidates = new HashMap<>();
         Set<String> excluded = new HashSet<>();
+        excluded.addAll(Arrays.asList(STOP_WORDS));
 
         List<String> queryWords = getAsWords(query);
         excluded.addAll(queryWords);
@@ -150,7 +156,8 @@ public class QueryService {
         // TODO: determine the best order of the words.
         queryWords.add(sortedCandidates.get(0).word);
         StringBuilder res = new StringBuilder();
-        queryWords.forEach(s -> res.append(s));
+        queryWords.forEach(s -> res.append(s + " "));
+        res.deleteCharAt(res.length()-1);
         return res.toString();
     }
 
