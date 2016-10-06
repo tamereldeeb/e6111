@@ -2,6 +2,7 @@ package com.group11proj1.services;
 
 import com.group11proj1.models.BingResult;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.Writer;
 import java.text.DecimalFormat;
@@ -33,10 +34,7 @@ class CandidateWord implements Comparable<CandidateWord> {
 public class QueryService {
 
     // This list is from ranks.nl/stopwords
-    private static final String[] STOP_WORDS = {"about", "an", "are", "as", "at", "be", "by", "com ", "for", "from",
-            "how", "in", "is", "it", "of", "on", "or", "that", "the", "this", "to", "was", "what", "when", "where",
-            "who", "will", "with", "www"
-    };
+    private static List<String> STOP_WORDS = null;
     private BingService bing;
 
     public QueryService(String accountKey) {
@@ -44,6 +42,9 @@ public class QueryService {
     }
 
     public void search(String userQuery, Double precisionTarget, Writer writer) throws IOException {
+        if (STOP_WORDS == null) {
+            loadStopWords();
+        }
         System.out.println("Parameters:");
         System.out.println("Query: " + userQuery);
         System.out.println("Precision: " + precisionTarget);
@@ -119,7 +120,7 @@ public class QueryService {
     private String modifyQuery(String query, List<BingResult> relevant, List<BingResult> irrelevant) {
         Map<String, CandidateWord> candidates = new HashMap<>();
         Set<String> excluded = new HashSet<>();
-        excluded.addAll(Arrays.asList(STOP_WORDS));
+        excluded.addAll(STOP_WORDS);
 
         List<String> queryWords = getAsWords(query);
         excluded.addAll(queryWords);
@@ -145,6 +146,9 @@ public class QueryService {
 
         // TODO: determine the best order of the words.
         queryWords.add(sortedCandidates.get(0).word);
+        if (sortedCandidates.get(0).compareTo(sortedCandidates.get(1)) == 0) {
+            queryWords.add(sortedCandidates.get(1).word);
+        }
         StringBuilder res = new StringBuilder();
         queryWords.forEach(s -> res.append(s + " "));
         res.deleteCharAt(res.length()-1);
@@ -196,6 +200,15 @@ public class QueryService {
             else {
                 cw.idp++;
             }
+        }
+    }
+
+    private void loadStopWords() throws IOException {
+        STOP_WORDS = new ArrayList<>();
+        File file = new File("stopwords.txt");
+        Scanner scanner = new Scanner(file);
+        while(scanner.hasNextLine()) {
+            STOP_WORDS.add(scanner.nextLine());
         }
     }
 

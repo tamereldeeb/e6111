@@ -11,7 +11,15 @@ public class Proj1 {
     public static void main(String[] args) throws Exception {
         String accountKey = args[0];
         Double precisionTarget = Double.parseDouble(args[1]);
+
         String query = StringUtils.join(Arrays.copyOfRange(args, 2, args.length), " ");
+        if (query.startsWith("'")) {
+            query = query.substring(1);
+        }
+        if (query.endsWith("'")) {
+            query = query.substring(0, query.length()-1);
+        }
+
         QueryService service = new QueryService(accountKey);
         Writer writer = null;
         try {
