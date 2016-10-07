@@ -164,9 +164,11 @@ public class QueryService {
 
     private List<String> getAsWords(String text) {
         ArrayList<String> res = new ArrayList<>();
-        String[] words = text.split("\\s+");
+        String[] words = text.split("\\s+|-|/|_|\\.");
         // remove punctuation if it exists
         for (int i = 0; i < words.length; i++) {
+            if (words[i].length() <= 1)
+                continue;
             if (!Character.isAlphabetic(words[i].charAt(words[i].length()-1))) {
                 words[i] = words[i].substring(0, words[i].length()-1);
             }
@@ -181,6 +183,13 @@ public class QueryService {
     private void processBingResult(BingResult r, boolean relevant, Map<String, CandidateWord> candidates,  Set<String> excluded) {
         Map<String, Integer> documentWords = new HashMap<>();
         for (String s : getAsWords(r.getTitle())) {
+            if (!excluded.contains(s)) {
+                int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
+                documentWords.put(s, ++count);
+            }
+        }
+
+        for (String s : getAsWords(r.getUrl())) {
             if (!excluded.contains(s)) {
                 int count = documentWords.containsKey(s) ? documentWords.get(s) : 0;
                 documentWords.put(s, ++count);

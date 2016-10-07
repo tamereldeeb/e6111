@@ -30,7 +30,7 @@ Internally, the QueryService uses a BingService class whose responsibility is to
 ## Query-Modification Method
 Our method is inspired by Rocchio's algorithm. In our case, since we don't have access to the entire collection of web documents or any other such large collection we couldn't realistically compute or approximate idf, so we came up with the following simplified approach.
 
-For every word (that is not already part of the query, and that is not a stop word*) that appears in the result title or summary, we calculate a triplet <rdp, idp, tf> where:
+For every word (that is not already part of the query, and that is not a stop word*) that appears in the result url, title or summary, we calculate a triplet (rdp, idp, tf) where:
 <br/>rdp: percentage of relevant documents the word appears in
 <br/>idp: percentage of irrelevant documents the word appears in
 <br/>rtf: total number of occurrences in relevant documents.
