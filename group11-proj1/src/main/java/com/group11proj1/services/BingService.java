@@ -32,6 +32,10 @@ public class BingService {
 		this.accountKey = accountKey;
 	};
 
+	public String getKey() {
+		return accountKey;
+	}
+
 	public List<BingResult> query(String query) throws IOException {
 		List<BingResult> results = new ArrayList<>();
 		String bingUrl = buildUrl(query);

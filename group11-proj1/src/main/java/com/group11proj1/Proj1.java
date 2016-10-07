@@ -23,7 +23,7 @@ public class Proj1 {
         QueryService service = new QueryService(accountKey);
         Writer writer = null;
         try {
-            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("transcript.txt"), "utf-8"));
+            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("transcript.txt", true), "utf-8"));
             writer.write(System.lineSeparator());
             service.search(query, precisionTarget, writer);
         } catch (IOException ex) {

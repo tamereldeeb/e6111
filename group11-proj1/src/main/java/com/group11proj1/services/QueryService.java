@@ -45,6 +45,7 @@ public class QueryService {
             loadStopWords();
         }
         System.out.println("Parameters:");
+        System.out.println("Key: " + bing.getKey());
         System.out.println("Query: " + userQuery);
         System.out.println("Precision: " + precisionTarget);
 
