@@ -7,9 +7,8 @@ import java.io.IOException;
 import java.io.Writer;
 import java.text.DecimalFormat;
 import java.util.*;
-import java.util.stream.Collectors;
 
-class CandidateWord implements Comparable<CandidateWord> {
+class CandidateWord implements Comparable {
     public String word;
     public double rdp = 0;
     public double idp = 0;
@@ -23,7 +22,8 @@ class CandidateWord implements Comparable<CandidateWord> {
         return rdp - idp;
     }
 
-    public int compareTo(CandidateWord w) {
+    public int compareTo(Object other) {
+        CandidateWord w = (CandidateWord) other;
         if (this.getRelevanceScore() == w.getRelevanceScore()) {
             return w.rtf - this.rtf;
         }
@@ -33,7 +33,6 @@ class CandidateWord implements Comparable<CandidateWord> {
 
 public class QueryService {
 
-    // This list is from ranks.nl/stopwords
     private static List<String> STOP_WORDS = null;
     private BingService bing;
 
@@ -142,15 +141,22 @@ public class QueryService {
             cw.idp *= 100;
         }
 
-        List<CandidateWord> sortedCandidates = candidates.values().stream().sorted().collect(Collectors.toList());
+        List<CandidateWord> candidateList = new ArrayList<>();
+        for (CandidateWord w : candidates.values()) {
+            candidateList.add(w);
+        }
+
+        Collections.sort(candidateList);
 
         // TODO: determine the best order of the words.
-        queryWords.add(sortedCandidates.get(0).word);
-        if (sortedCandidates.get(0).compareTo(sortedCandidates.get(1)) == 0) {
-            queryWords.add(sortedCandidates.get(1).word);
+        queryWords.add(candidateList.get(0).word);
+        if (candidateList.get(0).compareTo(candidateList.get(1)) == 0) {
+            queryWords.add(candidateList.get(1).word);
         }
         StringBuilder res = new StringBuilder();
-        queryWords.forEach(s -> res.append(s + " "));
+        for (String s : queryWords) {
+            res.append(s + " ");
+        }
         res.deleteCharAt(res.length()-1);
         return res.toString();
     }
