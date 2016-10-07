@@ -149,10 +149,9 @@ public class QueryService {
 
         Collections.sort(candidateList);
 
-        // TODO: determine the best order of the words.
-        queryWords.add(candidateList.get(0).word);
+        addWordInBestPosition(queryWords, candidateList.get(0).word, relevant);
         if (candidateList.get(0).compareTo(candidateList.get(1)) == 0) {
-            queryWords.add(candidateList.get(1).word);
+            addWordInBestPosition(queryWords, candidateList.get(1).word, relevant);
         }
         StringBuilder res = new StringBuilder();
         for (String s : queryWords) {
@@ -164,7 +163,7 @@ public class QueryService {
 
     private List<String> getAsWords(String text) {
         ArrayList<String> res = new ArrayList<>();
-        String[] words = text.split("\\s+|-|/|_|\\.");
+        String[] words = text.split("\\s+|-|/|_");
         // remove punctuation if it exists
         for (int i = 0; i < words.length; i++) {
             if (words[i].length() <= 1)
@@ -226,6 +225,52 @@ public class QueryService {
         while(scanner.hasNextLine()) {
             STOP_WORDS.add(scanner.nextLine());
         }
+    }
+
+    private void addWordInBestPosition(List<String> queryWords, String word, List<BingResult> relevant) {
+        int index = -1;
+        int maxCount = 0;
+
+        for (int i = 0; i < queryWords.size(); i++) {
+            int curr = 0;
+
+            // try before queryWords[i]
+            curr = countInResult(word + " " + queryWords.get(i), relevant);
+
+            // try after queryWords[i-1]
+            if (i > 0) {
+                curr = Math.max(curr, countInResult(queryWords.get(i-1) + " " + word, relevant));
+
+                // Ok, but is the existing arrangement better?
+                if (countInResult(queryWords.get(i-1) + " " + queryWords.get(i), relevant) >= curr) {
+                    curr = 0;
+                }
+            }
+
+            if (curr > maxCount) {
+                maxCount = curr;
+                index = i;
+            }
+
+        }
+
+        if (index == -1) {
+            // Doesn't immediately follow or precede any other keyword.
+            // just add at the end of the query
+            queryWords.add(word);
+        } else {
+            queryWords.add(index, word);
+        }
+    }
+
+    private int countInResult(String s, List<BingResult> results) {
+        int res = 0;
+        for (BingResult r : results) {
+            if (r.getTitle().toLowerCase().contains(s) || r.getSummary().toLowerCase().contains(s)) {
+                res++;
+            }
+        }
+        return res;
     }
 
 }

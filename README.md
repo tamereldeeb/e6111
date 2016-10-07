@@ -37,11 +37,11 @@ For every word (that is not already part of the query, and that is not a stop wo
 
 In every iteration, we choose the word that has the highest value of (rdp - idp) to add to the query. This formula gives a high weight to words that appear many relevant documents, while penalizing those that appear in irrelevant ones. We use the rtf to break ties.<br/>
 
-Notes:<br/>
-- In case more than one word have the exact same score, we pick any two to add to the query.)
-- we maintain an explicit stop word list.
+We do not change the relative order of words already in the query between iteration; so we just need to determine the best place for the newly added word(s). We use the following heuristic: Find how many times it immediately follows or precedes each existing query word in the relevant results, and then insert the word next to (or before) the word that it follows (or precedes) the most.
 
-TODO: explain word ordering
+Notes:<br/>
+- In case more than one word have the exact same score, we pick any two to add to the query.
+- we maintain an explicit stop word list.
 
 
 ## Bing Search Account Key
