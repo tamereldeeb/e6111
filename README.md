@@ -31,15 +31,17 @@ Internally, the QueryService uses a BingService class whose responsibility is to
 Our method is inspired by Rocchio's algorithm. In our case, since we don't have access to the entire collection of web documents or any other such large collection we couldn't realistically compute or approximate idf, so we came up with the following simplified approach.
 
 For every word (that is not already part of the query, and that is not a stop word*) that appears in the result title or summary, we calculate a triplet <rdp, idp, tf> where:
-rdp: percentage of relevant documents the word appears in
-idp: percentage of irrelevant documents the word appears in
-rtf: total number of occurrences in relevant documents.
+<br/>rdp: percentage of relevant documents the word appears in
+<br/>idp: percentage of irrelevant documents the word appears in
+<br/>rtf: total number of occurrences in relevant documents.
 
-In every iteration, we choose the word that has the highest value of (rdp - idp) to add to the query. This formula gives a high weight to words that appear many relevant documents, while penalizing those that appear in irrelevant ones. We use the rtf to break ties.
+In every iteration, we choose the word that has the highest value of (rdp - idp) to add to the query. This formula gives a high weight to words that appear many relevant documents, while penalizing those that appear in irrelevant ones. We use the rtf to break ties.<br/>
 
-* we maintain an explicit stop word list.
+Notes:<br/>
+- In case more than one word have the exact same score, we pick any two to add to the query.)
+- we maintain an explicit stop word list.
 
-TODO: explain word ordering, and adding 2 words
+TODO: explain word ordering
 
 
 ## Bing Search Account Key
