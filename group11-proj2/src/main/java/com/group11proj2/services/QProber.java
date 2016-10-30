@@ -44,7 +44,7 @@ public class QProber {
         // Now find which child categories meet the coverage and specificity bars
         for (String candidate : candidateCat) {
             int coverage = hitCount.get(candidate);
-            double specificity = (coverage * nodeSpecificity) / total_hits;
+            double specificity = total_hits > 0 ? (coverage * nodeSpecificity) / total_hits : 1;
             printCategoryResult(candidate, coverage, specificity);
             if (coverage >= coverageThreshold && specificity >= specificityThreshold) {
                 // This works!
