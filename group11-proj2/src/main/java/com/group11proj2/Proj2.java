@@ -13,8 +13,14 @@ public class Proj2 {
         Integer coverageThreshold = Integer.parseInt(args[2]);
         String website = args[3];
 
+        System.out.println("Classifying...");
         QProber qb = new QProber(new BingService(accountKey));
-        List<String> cats = qb.classify(specifityThreshold, coverageThreshold, website);
+        List<String> classification = qb.classify(specifityThreshold, coverageThreshold, website);
+        System.out.println();
+        System.out.println("Classification:");
+        for (String category : classification) {
+            System.out.println(category);
+        }
         return;
     }
 }

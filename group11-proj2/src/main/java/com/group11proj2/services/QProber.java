@@ -38,9 +38,10 @@ public class QProber {
 
         // Now find which child categories meet the coverage and specifity bars
         for (String candidate : candidateCat) {
-            int candidate_hits = hitCount.get(candidate);
-            double specifity = (candidate_hits * nodeSpecifity) / total_hits;
-            if (candidate_hits >= coverageThreshold && specifity >= specifityThreshold) {
+            int coverage = hitCount.get(candidate);
+            double specifity = (coverage * nodeSpecifity) / total_hits;
+            printCategoryResult(candidate, coverage, specifity);
+            if (coverage >= coverageThreshold && specifity >= specifityThreshold) {
                 // This works!
                 // Now see if there are any subcategories that this host can be classified into
                 List<String> matches = classifyHierarchical(candidate, specifity, specifityThreshold, coverageThreshold, host);
@@ -52,6 +53,13 @@ public class QProber {
             result.add(node);
         }
         return result;
+    }
+
+    private void printCategoryResult(String category, int coverage, double specifity) {
+        String[] nodes = category.split("/");
+        String leaf = nodes[nodes.length-1];
+        System.out.println("Specificity for category:" + leaf + " is " + specifity);
+        System.out.println("Coverage for category:" + leaf + " is " + coverage);
     }
 
 }

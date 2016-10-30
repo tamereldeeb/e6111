@@ -56,7 +56,7 @@ public class BingService {
 			SyndEntry entry = (SyndEntry) entryIter.next();
 			SyndContent content = (SyndContent) (entry.getContents().get(0));
 			String xml = content.getValue();
-			System.out.println(xml);
+
 			// parse feed content
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
