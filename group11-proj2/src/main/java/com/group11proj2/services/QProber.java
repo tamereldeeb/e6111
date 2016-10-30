@@ -1,12 +1,12 @@
 package com.group11proj2.services;
 
+import com.group11proj2.models.BingResult;
+import com.group11proj2.models.BingServiceResult;
+import com.group11proj2.models.ProbeResult;
 import com.group11proj2.util.CategoryHelper;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class QProber {
     private BingService bing;
@@ -15,13 +15,16 @@ public class QProber {
         this.bing = bing;
     }
 
-    public List<String> classify(Double specifityThreshold, Integer coverageThresahold, String host) throws Exception {
-        return classifyHierarchical("Root", 1.0, specifityThreshold, coverageThresahold, host);
+    public ProbeResult probe(Double specificityThreshold, Integer coverageThresahold, String host) throws Exception {
+        Map<String, Set<String>> documentSampleMap = new HashMap<String, Set<String>>();
+        List<String> classification = classifyHierarchical("Root", 1.0, specificityThreshold, coverageThresahold, host, documentSampleMap);
+        return new ProbeResult(classification, documentSampleMap);
     }
 
-    private List<String> classifyHierarchical(String node, double nodeSpecifity,
-                                              Double specifityThreshold,
-                                              Integer coverageThreshold, String host) throws Exception {
+    private List<String> classifyHierarchical(String node, double nodeSpecificity,
+                                              Double specificityThreshold,
+                                              Integer coverageThreshold, String host,
+                                              Map<String, Set<String>> documentSampleMap) throws Exception {
         List<String> result = new ArrayList<String>();
         List<String> candidateCat = CategoryHelper.getInstance().getSubCategories(node);
         int total_hits = 0;
@@ -30,21 +33,23 @@ public class QProber {
             hitCount.put(candidate, 0);
             List<String> probes = CategoryHelper.getInstance().getCategoryProbes(candidate);
             for (String probe : probes) {
-                int hits = bing.query(host, probe);
+                BingServiceResult bingResult = bing.query(host, probe);
+                addToDocumentSample(node, documentSampleMap, bingResult.getTopResults());
+                int hits = bingResult.getTotalResults();
                 total_hits += hits;
                 hitCount.put(candidate, hitCount.get(candidate) + hits);
             }
         }
 
-        // Now find which child categories meet the coverage and specifity bars
+        // Now find which child categories meet the coverage and specificity bars
         for (String candidate : candidateCat) {
             int coverage = hitCount.get(candidate);
-            double specifity = (coverage * nodeSpecifity) / total_hits;
-            printCategoryResult(candidate, coverage, specifity);
-            if (coverage >= coverageThreshold && specifity >= specifityThreshold) {
+            double specificity = (coverage * nodeSpecificity) / total_hits;
+            printCategoryResult(candidate, coverage, specificity);
+            if (coverage >= coverageThreshold && specificity >= specificityThreshold) {
                 // This works!
                 // Now see if there are any subcategories that this host can be classified into
-                List<String> matches = classifyHierarchical(candidate, specifity, specifityThreshold, coverageThreshold, host);
+                List<String> matches = classifyHierarchical(candidate, specificity, specificityThreshold, coverageThreshold, host, documentSampleMap);
                 result.addAll(matches);
             }
         }
@@ -55,11 +60,24 @@ public class QProber {
         return result;
     }
 
-    private void printCategoryResult(String category, int coverage, double specifity) {
+    private void printCategoryResult(String category, int coverage, double specificity) {
         String[] nodes = category.split("/");
         String leaf = nodes[nodes.length-1];
-        System.out.println("Specificity for category:" + leaf + " is " + specifity);
+        System.out.println("Specificity for category:" + leaf + " is " + specificity);
         System.out.println("Coverage for category:" + leaf + " is " + coverage);
+    }
+
+    private void addToDocumentSample(String category, Map<String, Set<String>> documentSampleMap, List<BingResult> results) {
+        for (BingResult r : results) {
+            String node = category;
+            while (!node.equals("")) {
+                if (!documentSampleMap.containsKey(node)) {
+                    documentSampleMap.put(node, new HashSet<String>());
+                }
+                documentSampleMap.get(node).add(r.getUrl());
+                node = CategoryHelper.getParent(node);
+            }
+        }
     }
 
 }

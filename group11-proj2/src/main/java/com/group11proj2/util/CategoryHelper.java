@@ -1,5 +1,7 @@
 package com.group11proj2.util;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
@@ -19,6 +21,14 @@ public class CategoryHelper {
         return instance;
     }
 
+    public static String getParent(String category) {
+        String[] nodes = category.split("/");
+        if (nodes.length == 1) {
+            return "";
+        }
+        return StringUtils.join(Arrays.copyOfRange(nodes, 0, nodes.length-1), "/");
+    }
+
     private void init() throws IOException {
         String[] root = {"Root/Computers", "Root/Health", "Root/Sports"};
         subcategories.put("Root", Arrays.asList(root));
@@ -26,7 +36,7 @@ public class CategoryHelper {
         String[] computers = {"Root/Computers/Hardware", "Root/Computers/Programming"};
         subcategories.put("Root/Computers", Arrays.asList(computers));
 
-        String[] health = {"Root/Health/Fitness", "Root/Health/Diseases"};
+        String[] health = {"Root/Health/Diseases", "Root/Health/Fitness"};
         subcategories.put("Root/Health", Arrays.asList(health));
 
         String[] sports = {"Root/Sports/Basketball", "Root/Sports/Soccer"};
