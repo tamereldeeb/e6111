@@ -52,7 +52,7 @@
 							<configuration>
 								<transformers>
 									<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-										<mainClass>com.group11proj2.proj2</mainClass>
+										<mainClass>com.group11proj2.Proj2</mainClass>
 									</transformer>
 								</transformers>
 								<artifactSet>

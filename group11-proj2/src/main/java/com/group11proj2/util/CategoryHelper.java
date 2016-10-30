@@ -1,7 +1,7 @@
 package com.group11proj2.util;
 
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.*;
 
 public class CategoryHelper {
@@ -57,8 +57,8 @@ public class CategoryHelper {
     }
 
     private void readProbes(String filename, String category) throws IOException {
-        File file = new File("probes/" + filename);
-        Scanner scanner = new Scanner(file);
+        InputStream input = getClass().getClassLoader().getResourceAsStream("probes/" + filename);
+        Scanner scanner = new Scanner(input);
         while(scanner.hasNextLine()) {
             String childCategory = category + "/" + scanner.next();
             String probe = scanner.nextLine();
