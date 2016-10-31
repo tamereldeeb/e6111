@@ -4,15 +4,15 @@ package com.group11proj2.models;
 import java.util.List;
 
 public class BingServiceResult {
-    int total;
+    Integer total;
     List<BingResult> top;
 
-    public BingServiceResult(int total, List<BingResult> top) {
+    public BingServiceResult(Integer total, List<BingResult> top) {
         this.total = total;
         this.top = top;
     }
 
-    public int getTotalResults() {
+    public Integer getTotalResults() {
         return total;
     }
 

@@ -1,43 +1,144 @@
 package com.group11proj2.services;
 
+import com.group11proj2.Proj2;
 import com.group11proj2.models.BingResult;
 import com.group11proj2.models.BingServiceResult;
 import com.group11proj2.models.ProbeResult;
 import com.group11proj2.util.CategoryHelper;
 
-import java.io.IOException;
+import java.io.*;
+import java.security.CodeSource;
 import java.util.*;
 
 public class QProber {
     private BingService bing;
+    private Boolean hitsCached;
+    private Boolean urlsCached;
 
-    public QProber(BingService bing) {
+    public QProber(BingService bing, Boolean urlsCached, Boolean hitsCached) {
         this.bing = bing;
+        this.urlsCached = urlsCached;
+        this.hitsCached = hitsCached;
     }
 
     public ProbeResult probe(Double specificityThreshold, Integer coverageThresahold, String host) throws Exception {
-        Map<String, Set<String>> documentSampleMap = new HashMap<String, Set<String>>();
-        List<String> classification = classifyHierarchical("Root", 1.0, specificityThreshold, coverageThresahold, host, documentSampleMap);
+        CodeSource codeSource = Proj2.class.getProtectionDomain().getCodeSource();
+        File jarFile = new File(codeSource.getLocation().toURI().getPath());
+        String jarDir = jarFile.getParentFile().getPath();
+        File cacheDir = new File(jarDir + "/cache");
+
+        Map<String, Set<String>> documentSampleMap = new HashMap<>();
+        List<String> classification = classifyHierarchical("Root", 1.0, specificityThreshold, coverageThresahold, host, documentSampleMap, cacheDir);
+
+        //cache logic
+        if (urlsCached) {
+            // initialize documentSample from cache
+            File[] cacheList = cacheDir.listFiles();
+            for (File f : cacheList) {
+                if (f.isFile()) {
+                    String[] parts = f.getName().split("-", 3);
+                    if (parts[0].equals(host) && parts[1].equals("urls")) {
+                        String tempCat = parts[2].replaceAll("-", "/");
+                        documentSampleMap.put(tempCat, new HashSet<String>());
+                        try (BufferedReader br = new BufferedReader(new FileReader(f))) {
+                            String line;
+                            while ((line = br.readLine()) != null) {
+                                documentSampleMap.get(tempCat).add(line);
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            // write cache
+            if (!cacheDir.exists()) {
+                cacheDir.mkdir();
+            }
+            String category = classification.get(classification.size() - 1);
+            File urlFile = new File(jarDir+"/cache/"+host+"-urls-"+ category.replaceAll("/", "-") +".txt");
+            if (!urlFile.exists()) {
+                do {
+                    BufferedWriter writer = null;
+                    try {
+                        writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(urlFile), "utf-8"));
+                        Set<String> docSample = documentSampleMap.get(category);
+                        for (String url : docSample) {
+                            writer.write(url);
+                            writer.newLine();
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Urls cache writing failed: " + e.toString());
+                    } finally {
+                        if (writer!= null) { writer.close(); }
+                    }
+                    category = CategoryHelper.getParent(category);
+                } while(!category.equals(""));
+            }
+        }
+
         return new ProbeResult(classification, documentSampleMap);
     }
 
     private List<String> classifyHierarchical(String node, double nodeSpecificity,
                                               Double specificityThreshold,
                                               Integer coverageThreshold, String host,
-                                              Map<String, Set<String>> documentSampleMap) throws Exception {
-        List<String> result = new ArrayList<String>();
+                                              Map<String, Set<String>> documentSampleMap,
+                                              File cacheDir) throws Exception {
+        List<String> result = new ArrayList<>();
         List<String> candidateCat = CategoryHelper.getInstance().getSubCategories(node);
-        int total_hits = 0;
-        Map<String, Integer> hitCount = new HashMap<String, Integer>();
+        Integer total_hits = 0;
+        Map<String, Integer> hitCount = new HashMap<>();
         for (String candidate : candidateCat) {
             hitCount.put(candidate, 0);
             List<String> probes = CategoryHelper.getInstance().getCategoryProbes(candidate);
             for (String probe : probes) {
-                BingServiceResult bingResult = bing.query(host, probe);
-                addToDocumentSample(node, documentSampleMap, bingResult.getTopResults());
-                int hits = bingResult.getTotalResults();
-                total_hits += hits;
-                hitCount.put(candidate, hitCount.get(candidate) + hits);
+                BingServiceResult bingResult = bing.query(host, probe, urlsCached, hitsCached);
+                if (bingResult.getTopResults() != null) {
+                    addToDocumentSample(node, documentSampleMap, bingResult.getTopResults());
+                }
+                if (bingResult.getTotalResults() != null) {
+                    Integer hits = bingResult.getTotalResults();
+                    total_hits += hits;
+                    hitCount.put(candidate, hitCount.get(candidate) + hits);
+                }
+            }
+        }
+
+        File hitsFile = new File(cacheDir+"/"+host+"-hits-"+ node.replaceAll("/", "-") +".txt");
+        if (hitsCached) {
+            BufferedReader br = null;
+            try {
+                br = new BufferedReader(new FileReader(hitsFile));
+                String line;
+                while ((line = br.readLine()) != null) {
+                    String[] parts = line.split(":", 3);
+                    hitCount.put(parts[0], Integer.parseInt(parts[1]));
+                    total_hits = Integer.parseInt(parts[2]);
+                }
+            } catch (Exception e) {
+                //
+            } finally {
+                if (br != null) { br.close(); }
+            }
+        } else {
+            // write cache
+            if (!cacheDir.exists()) {
+                cacheDir.mkdir();
+            }
+            if (!hitsFile.exists()) {
+                BufferedWriter writer = null;
+                try {
+                    writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(hitsFile), "utf-8"));
+                    Set<String> keys = hitCount.keySet();
+                    for (String key : keys) {
+                        writer.write(key + ":" + hitCount.get(key) + ":" + total_hits);
+                        writer.newLine();
+                    }
+                } catch (Exception e) {
+                    System.out.println("Hits cache writing failed: " + e.toString());
+                } finally {
+                    if (writer!= null) { writer.close(); }
+                }
             }
         }
 
@@ -49,7 +150,7 @@ public class QProber {
             if (coverage >= coverageThreshold && specificity >= specificityThreshold) {
                 // This works!
                 // Now see if there are any subcategories that this host can be classified into
-                List<String> matches = classifyHierarchical(candidate, specificity, specificityThreshold, coverageThreshold, host, documentSampleMap);
+                List<String> matches = classifyHierarchical(candidate, specificity, specificityThreshold, coverageThreshold, host, documentSampleMap, cacheDir);
                 result.addAll(matches);
             }
         }

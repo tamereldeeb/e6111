@@ -37,7 +37,16 @@ public class BingService {
 		return accountKey;
 	}
 
-	public BingServiceResult query(String website, String query) throws IOException {
+	public BingServiceResult query(String website, String query, Boolean urlsCached, Boolean hitsCached) throws IOException {
+		if (urlsCached && hitsCached) {
+			return new BingServiceResult(null, null);
+		}
+		else if (urlsCached) {
+			return new BingServiceResult(queryMeta(website, query), null);
+		}
+		else if (hitsCached) {
+			return new BingServiceResult(null, queryResult(website, query));
+		}
 		return new BingServiceResult(queryMeta(website, query), queryResult(website, query));
 	}
 
