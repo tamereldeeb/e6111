@@ -49,27 +49,39 @@ public class WebHelper {
     }
 
     public void processURLContents(String cachePath, String url, Map<String, Integer> docFreqCount) {
-
-        File urlFile = new File(cachePath+"/"+url.replace("http://", ""));
-
-        // get URL page
-        try {
-            if (!urlFile.exists()) {
-                System.out.println("Getting page: " + url);
-                System.out.println();
-                FileUtils.copyURLToFile(new URL(url), urlFile);
-            } else {
-                System.out.println("Getting page: " + url + "(cached)");
-                System.out.println();
+        if (!url.contains("https")) {
+            String temp = url.replace("http://", "");
+            if (!temp.contains(".html")) {
+                temp += ".html";
             }
-        } catch (Exception e) {
-            // ignore
+            String filePath = cachePath + "/" + temp;
+            File urlFile = new File(filePath);
+
+            // get URL page
+            try {
+                if (!urlFile.exists()) {
+                    System.out.println("Getting page: " + url);
+                    System.out.println();
+                    FileUtils.copyURLToFile(new URL(url), urlFile);
+                } else {
+                    System.out.println("Getting page: " + url + "(cached)");
+                    System.out.println();
+                }
+            } catch (Exception e) {
+                // ignore
 //            System.out.println("URL download failed: " + e.toString());
+            }
+
+            // process file
+            Set words = getWordsLynx.runLynx(filePath);
+            for (Object w : words) {
+                String token = (String) w;
+                if (docFreqCount.containsKey(w)) {
+                    docFreqCount.put(token, docFreqCount.get(token) + 1);
+                } else {
+                    docFreqCount.put(token, 1);
+                }
+            }
         }
-
-        // process file
-
-
-
     }
 }

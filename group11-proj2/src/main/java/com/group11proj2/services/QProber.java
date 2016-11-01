@@ -70,7 +70,8 @@ public class QProber {
                             writer.newLine();
                         }
                     } catch (Exception e) {
-                        System.out.println("Urls cache writing failed: " + e.toString());
+                        // ignore
+//                        System.out.println("Urls cache writing failed: " + e.toString());
                     } finally {
                         if (writer != null) {
                             writer.close();
