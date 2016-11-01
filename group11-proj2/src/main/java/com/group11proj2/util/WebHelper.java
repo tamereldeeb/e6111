@@ -76,10 +76,16 @@ public class WebHelper {
             Set words = getWordsLynx.runLynx(filePath);
             for (Object w : words) {
                 String token = (String) w;
-                if (docFreqCount.containsKey(w)) {
-                    docFreqCount.put(token, docFreqCount.get(token) + 1);
+                if (token.contains(" ")) { // multiple-word entry
+                    if (!docFreqCount.containsKey(w)) {
+                        docFreqCount.put(token, 0);
+                    }
                 } else {
-                    docFreqCount.put(token, 1);
+                    if (docFreqCount.containsKey(w)) {
+                        docFreqCount.put(token, docFreqCount.get(token) + 1);
+                    } else {
+                        docFreqCount.put(token, 1);
+                    }
                 }
             }
         }

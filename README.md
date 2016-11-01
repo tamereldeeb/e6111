@@ -7,9 +7,9 @@
 
 ## Files in Submission
 - group11-proj2
-	- ???.java
+	- src
+	- pom.xml
 - README.md
-- transcript.txt
 
 
 ## Run Instructions
@@ -24,6 +24,7 @@
 
 
 
+Note: If there is a multiple-word entry, the document frequency is 0.0.
 
 
 ## Bing Search Account Key
