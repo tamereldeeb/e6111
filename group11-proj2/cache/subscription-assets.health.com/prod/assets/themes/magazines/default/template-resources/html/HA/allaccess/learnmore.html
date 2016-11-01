@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<meta charset="UTF-8">
+<title>Learn More</title>
+	<style type="text/css">
+	@charset "UTF-8";
+	*{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;line-height:inherit;letter-spacing:inherit;list-style:none;text-decoration:none;}
+	body { background-color: #f7f7f7; font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+	strong { font-weight: bold; }
+	em { font-style: italic; }
+	p { margin: 1em 0; }
+	a { color:#000; text-decoration: underline; }
+	img { display: block;}
+	.clear { clear:both; min-height: 0; }
+	.txtSm { font-size: smaller;}
+	.wrap { width: 100%; position: relative;}
+	.top_bar { background:url('bg-green.png') left top repeat-x; height: 48px; position: absolute; width:100%; left:0; top:0; }
+	.op0 { width: 996px; margin: 20px auto; background:#fff; border: solid 1px #e3e3e3; padding-top:30px; }
+	.nav { height:90px; }
+	.nav img { float:left; margin-left:50px; opacity: 0.3; filter:alpha(opacity=30); }
+	.nav .active { opacity: 1; filter:alpha(opacity=100); }
+
+	/*Digital landing page navigation*/
+	.nav2 { height:90px; }
+	.nav2-links { text-align:center; }
+	.nav2-links img {display: inline-block; }
+
+	/*Print*/
+
+	.op1 { padding: 10px 30px 20px 5px; }
+	.leftCol { width: 466px; float:left; margin-left:70px; margin-right: 70px; }
+	.rightCol { width: 300px; float:left; padding-top: 50px; }
+	.rightCol ul { margin-left:15px; }
+	.rightCol li { list-style:disc; padding:5px; }
+	.btnSubmit { display: block; background: url('btn-sbscrb.png') top left no-repeat; width: 245px; height: 55px; text-transform: uppercase; text-indent: -9999px; cursor: pointer; clear:both; }
+	.btm { background:#f7f7f7; padding:4px; overflow:hidden; }
+	.btm img { margin: 6px; float:left; }
+	.nomrgn { margin-right:0!important;}
+
+	/*Digital*/
+
+	.top_bar_digital { background:url('bg-pink.png') left top repeat-x; height: 48px; position: absolute; width:100%; left:0; top:0; }
+	.btnSubmit2 { display: block; background: url('btn-sbscrb-pink.png') top left no-repeat; width: 245px; height: 55px; text-transform: uppercase; text-indent: -9999px; cursor: pointer; clear:both; }
+	.sec-hdr { position:relative; border-top: 1px solid #d5d4d4; border-bottom: 1px solid #f7f6f6; margin: 30px 6px 5px 6px; text-align:center; }
+	.sec-hdrCopy { display: inline-block; text-align: center; position:relative; top:-10px; line-height: 100%; font-weight: bold; font-size: 19px; padding: 0px 10px; color: #f0544c; background: #ffffff; }
+
+	.sec0 { text-align:center; padding:10px 40px; color:#7a7a7a; }
+	.sec0 img { display:inline; margin-right: 10px; vertical-align:middle; }
+	.sec0 a { color:#747474; text-decoration:underline;}
+	.sec1{ color:#747474; text-align:center; }
+	.sec1 a { color:#747474; }
+	.icon { margin:auto; }
+	.icon-desc { font-size:14px; margin:20px auto; }
+	.icon-desc span { display: block; font-size: 15px; font-weight: bold; margin-bottom: 6px; }
+
+	.rndBox { border-radius: 16px; width:150px; margin: 0 2px; padding:15px 3px; display: inline-block; vertical-align: top; }
+	.hdr { background-color: #979797; font-size: 18px; font-weight: bold; color: #fff; height: 30px; line-height: 30px; text-align: center; margin: 30px auto; }
+	.hdr a { color: #fff; }
+	.op2 { padding: 10px 30px 20px; font-size: 16px; }
+	.sec { padding: 0 40px; }
+	.sec ol { margin:10px 20px; }
+	.sec ol li { padding:6px 10px; list-style:decimal; line-height:22px; }
+	.sec ol li a { color:#1e88c9; text-decoration: underline; }
+	h3 { font-size: 30px; border-bottom: solid 2px #d4d5d7; font-weight:bold; padding-left:40px; }
+	.txt2 { font-size: 20px; font-weight:bold; }
+
+	/*All Access*/
+
+	.top_bar_allaccess { background:url('bg-blue.png') left top repeat-x; height: 48px; position: absolute; width:100%; left:0; top:0;}
+	.btnSubmit3 { display: block; background: url('btn-sbscrb-blue.png') top left no-repeat; width: 245px; height: 55px; text-transform: uppercase; text-indent: -9999px; cursor: pointer; clear:both; }
+
+	/*Premium*/
+
+	.top_bar_premium { background:url('bg-orange.png') left top repeat-x; height: 48px; position: absolute; width:100%; left:0; top:0;}
+	.sec3 { padding: 10px 30px; overflow:hidden;}
+	.sec3-left { width:635px; float:left;}
+	.sec3-left ul { margin-left:20px;}
+	.sec3-left li { list-style:disc; padding:5px;}
+	.sec3-right { width:250px; float:left; margin-left:10px;}
+
+	.btnSubmit4 { display: block; background: url('btn-sbscrb-orange.png') top left no-repeat; width: 245px; height: 55px; text-transform: uppercase; text-indent: -9999px; cursor: pointer; clear:both; margin-top:3em; }
+
+
+	.shadow1 { -webkit-box-shadow:  0px 5px 5px -5px rgba(0, 0, 0, .6); box-shadow:  0px 5px 5px -5px rgba(0, 0, 0, .6); }
+	.shadow2 { -webkit-box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, .5); box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, .5); }
+	.greyGrad { background: #e7e7e7; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZTdlNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #e7e7e7 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7e7e7), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e7e7e7 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e7e7e7 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e7e7e7 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e7e7e7 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+	}
+	.vignette { box-shadow:inset 0px 5px 15px rgba(0,0,0,.5); -webkit-box-shadow:inset 0px 5px 15px rgba(0,0,0,.5); -moz-box-shadow:inset 0px 5px 15px rgba(0,0,0,.5); }
+
+	.devices { position: relative; width: 466px; height: 289px; background: url(devices.png); margin: 10px auto; }
+	.devices .tabCvr { position: absolute; left: 208px; top: 58px; width: 160px; }
+	.devices .mobCvr { position: absolute; left: 390px; top: 160px; width: 70px; }
+
+	</style><!--[if gte IE 9]>
+		<style type="text/css">
+	.gradient {
+	   filter: none;
+	}
+		</style>
+		<![endif]-->
+
+	<script type="text/javascript">
+
+	function toggleMe(x) {
+	var elem = document.getElementById(x)
+	elem.style.display = (elem.style.display == "none") ? "block":"block";
+	}
+	</script>
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="op0">
+			<div class="nav2 shadow1">
+				<div class="nav2-links"><img alt="Real Simple" src="logo.png"></div>
+			</div>
+
+			<div class="op1">
+				<div class="leftCol">
+					<div class="devices"><img alt="" class="tabCvr" src="http://subscription-assets.timeinc.com/current/4478_top1.jpg"> <img alt="" class="mobCvr" src="http://subscription-assets.timeinc.com/current/4478_top1.jpg"></div>
+				</div>
+
+				<div class="rightCol">
+					<p style="color:#f0544c; font-weight:bold; font-size:28px;">YOUR DIGITAL<br>
+					ACCESS INCLUDES</p>
+
+					<ul>
+						<!--<li>Unlimited online access</li>-->
+
+						<li>HEALTH Digital Magazine</li>
+
+						<li>Healthy &amp; delicious recipes, energizing workouts, and the latest beauty trends from the editors</li>
+					</ul>
+				</div>
+
+				<div class="clear">
+					<!--clear-->
+				</div>
+			</div>
+
+			<div style="text-align:center;">
+				Click on the icons below for instructions on how to access the digital edition of HEALTH.
+				<p>
+			</div>
+
+			<div class="sec-hdr">
+				<div class="sec-hdrCopy">
+					DIGITAL EDITION AVAILABLE ON
+				</div>
+			</div>
+
+			<div class="sec1">
+				<br>
+
+				<div class="rndBox greyGrad gradient">
+					<a href="#content-0" onclick="toggleMe(&#39;guide&#39;)"><img alt="App Store" class="icon" src="icon-appstore.png"></a>
+
+					<div class="icon-desc">
+						<span>App Store</span>Optimized for iPad&reg; and iPhone&reg;
+					</div>
+				</div>
+
+				<div class="rndBox greyGrad gradient">
+					<a href="#content-1" onclick="toggleMe(&#39;guide&#39;)"><img alt="Kindle" class="icon" src="icon-kindle.png"></a>
+
+					<div class="icon-desc">
+						<span>Kindle Newsstand</span> Available on Kindle Fire and Kindle Fire HD
+					</div>
+				</div>
+
+				<div class="rndBox greyGrad gradient">
+					<a href="#content-2" onclick="toggleMe(&#39;guide&#39;)"><img alt="Nook Newsstand" class="icon" src="icon-nook.png"></a>
+
+					<div class="icon-desc">
+						<span>NOOK&trade; Newsstand</span> Available on NOOK Tablet&trade; and NOOK Color&trade;
+					</div>
+				</div><!-- <div class="rndBox greyGrad gradient">
+										<a href="#" onclick="toggleMe('guide')">
+												<img src="icon-nextissue.png" alt="Next Issue" class="icon">
+										</a>
+										<div class="icon-desc">
+												<span>Next Issue</span>
+												Available on iPad&reg;, iPhone, Android&trade; tablet, and Windows&trade; 8 PC and tablets
+										</div>
+								</div> -->
+
+				<div class="rndBox greyGrad gradient">
+					<a href="#content-4" onclick="toggleMe(&#39;guide&#39;)"><img alt="Google Play" class="icon" src="icon-gplay.png"></a>
+
+					<div class="icon-desc">
+						<span>Google Play Magazines</span> Available for Android tablets and phones
+					</div>
+				</div>
+
+				<div class="rndBox greyGrad gradient">
+					<a href="#content-5" onclick="toggleMe(&#39;guide&#39;)"><img alt="Kobo" class="icon" src="icon-kobo.png"></a>
+
+					<div class="icon-desc">
+						<span>Kobo</span> Available on iOS, Android, Kobo – branded devices, and on the web at Kobo.com
+					</div>
+				</div>
+			</div>
+
+			<div id="guide" style="display: block;">
+				<div class="hdr vignette" id="hdr2">
+					<div>
+						Instructions on how to access the digital edition of HEALTH
+					</div>
+				</div><!--ipadmini start-->
+
+				<div class="op2" id="content-0">
+					<h3>iPad&reg; and iPhone&reg;</h3>
+
+					<div class="sec">
+						<p><img alt="App-store" height="44" src="app-store.gif" width="123"></p>
+							<p>The HEALTH app is only available for iPad and iPhone devices running on iOS 7 or higher.</p>
+						<ol>
+							<li>
+								<a target="_blank" href="https://secure.customersvc.com/servlet/Show?WESPAGE=am/tablet/template/login.jsp&amp;MSRSMAG=HA&amp;MSDDMOFF=ABTF&amp;MSDTRACK=LRNM&amp;MSDVNDID=TBLT">Click here</a> to validate your current subscription and establish your digital account. If you've already set up your digital account, proceed to step two.
+							</li>
+
+							<li>Download and install the HEALTH iPad or iPhone app from the App Store.</li>
+
+							<li>The app will download on the iPad or iPhone desktop. Tap the HEALTH app icon.</li>
+
+							<li>On iPad, tap the "Sign In" button on the upper left corner of the screen. On iPhone, tap the gear icon on the upper right corner, then tap "Sign In."</li>
+
+							<li>Enter the email address and the password you set up. Forgot your password? <a target="_blank" href="https://subscription.allyou.com/storefront/universalForgotPassword.ep?magcode=HA">Click here</a>.
+							</li>
+
+							<li>Tap LIBRARY to view and download available issues.</li>
+						</ol>
+					</div>
+				</div><!--ipadmini end-->
+				<!--Kindle start-->
+
+				<div class="op2" id="content-1">
+					<h3>Kindle Fire&trade; and Kindle Fire HD</h3>
+
+					<div class="sec">
+						<p><img alt="Amazon Kindle" height="28" src="amazon-kindle.gif" width="127"></p>
+
+						<ol>
+							<li>On your Kindle, go to the Amazon Newsstand and find HEALTH magazine.</li>
+
+							<li>Tap "Verify your subscription."</li>
+
+							<li>Enter your account number, mailing address, or digital account login information.</li>
+
+							<li>Tap "Verify."</li>
+						</ol>
+					</div>
+				</div><!--kindle end-->
+				<!--Nook start-->
+
+				<div class="op2" id="content-2">
+					<h3>NOOK Color&trade; and NOOK Tablet&trade;</h3>
+
+					<div class="sec">
+						<p><img alt="Nook" height="45" src="nook-icon.jpg" width="106"></p>
+
+						<ol>
+							<li>Visit <a href="http://www.barnesandnoble.com" target="_blank">barnesandnoble.com</a> and search for HEALTH. Using your barnesandnoble.com account, order your NOOK&trade; subscription by tapping or clicking "Subscribe Now."
+							</li>
+
+							<li>After you submit your NOOK subscription order, you will receive an email from Barnes & Noble with instructions on how to verify your subscription. Follow the instructions for current subscribers.</li>
+
+							<li>You will have 14 days to validate your subscription by entering your subscription account number. If you do not validate your subscription within 14 days, you will be charged for your NOOK order by Barnes & Noble.</li>
+						</ol>
+
+						<p class="txtSm">The Barnes &amp; Noble NOOK app is available for Windows 8 PC and tablet owners. <a target="_blank" href="http://www.barnesandnoble.com/u/nook-for-windows-8/379003757/">Click here</a> for more information.</p>
+					</div>
+				</div><!--Nook end-->
+				<!--google play start-->
+
+				<div class="op2" id="content-4">
+					<h3>Android Devices via Google Play</h3>
+
+					<div class="sec">
+						<p><img alt="Google Play" height="36" src="google-play.jpg" width="155"></p>
+
+						<ol>
+							<li>Go to the Google Play Store and find HEALTH magazine.</li>
+
+							<li>Tab "Subscribe", and then choose "For current subscribers".</li>
+
+							<li>Enter your personal information and tap continue.</li>
+
+							<li>Verify your subscriber status by entering your address or account number and tap continue.</li>
+
+							<li>Agree to Google Play's Terms of Service and tap Accept & subscribe.</li>
+						</ol>
+
+						<p>Please visit the Google Play Help Center for more information: <a href="http://support.google.com/googleplay" target="_blank">http://support.google.com/googleplay</a><br>
+						You can contact Google Play customer service by <a href="http://support.google.com/googleplay/bin/request.py?contact_type=contact_policy&amp;policy=magazines" target="_blank">clicking here</a>.</p>
+					</div>
+				</div><!--google play end-->
+				<!--kobo start-->
+
+				<div class="op2" id="content-5">
+					<h3>Kobo&trade;</h3>
+
+					<div class="sec">
+						<p><img alt="Kobo" height="53" src="kobo.jpg" width="95"></p>
+
+						<p>Kobo is available on iOS, Android, Kobo branded devices, and on the web at <a href="http://store.kobobooks.com/en-us/" target="_blank">Kobo.com</a>.</p>
+
+						<ol>
+							<li>Go to the Kobo Store on your iOS, Android, or Kobo device or on the web at <a href="http://store.kobobooks.com/en-us/" target="_blank">Kobo.com</a></a> .
+							</li>
+
+							<li>Make sure that you are logged into your Kobo account.</li>
+
+							<li>Find HEALTH magazine.</li>
+
+							<li>Enter your HEALTH account number and click "Submit".</li>
+						</ol>
+
+						<p class="txtSm">Find your account number on your magazine mailing label or by &nbsp;<a href="https://secure.customersvc.com/servlet/Show?WESPAGE=am/home.jsp&amp;MSRSMAG=HA" target="_blank">clicking here</a>&nbsp;to log into HEALTH Customer Support with your email address and password.</p>
+
+						<p class="txtSm">For support call (855) 732-3662 from 8:00AM to 12:00AM EST or <a href="mailto:help@kobobooks.com" >email&nbsp;help@kobobooks.com</a></p>
+					</div>
+				</div><!--kobo end-->
+			</div>
+		</div>
+	</div>
+</body>
+</html>

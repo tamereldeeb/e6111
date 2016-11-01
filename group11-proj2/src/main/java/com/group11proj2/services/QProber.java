@@ -7,25 +7,27 @@ import com.group11proj2.models.ProbeResult;
 import com.group11proj2.util.CategoryHelper;
 
 import java.io.*;
-import java.security.CodeSource;
 import java.util.*;
 
 public class QProber {
     private BingService bing;
+    private String cachePath;
     private Boolean hitsCached;
     private Boolean urlsCached;
 
-    public QProber(BingService bing, Boolean urlsCached, Boolean hitsCached) {
+    public QProber(BingService bing, String cachePath) {
         this.bing = bing;
-        this.urlsCached = urlsCached;
-        this.hitsCached = hitsCached;
+        this.cachePath = cachePath;
+        this.urlsCached = false;
+        this.hitsCached = false;
     }
 
     public ProbeResult probe(Double specificityThreshold, Integer coverageThresahold, String host) throws Exception {
-        CodeSource codeSource = Proj2.class.getProtectionDomain().getCodeSource();
-        File jarFile = new File(codeSource.getLocation().toURI().getPath());
-        String jarDir = jarFile.getParentFile().getPath();
-        File cacheDir = new File(jarDir + "/cache");
+        File cacheDir = new File(cachePath);
+        File urlsFile = new File(cachePath + "/" + host + "-urls-Root.txt");
+        File hitsFile = new File(cachePath + "/" + host + "-hits-Root.txt");
+        this.urlsCached = Proj2.DEV_ENV && urlsFile.exists();
+        this.hitsCached = Proj2.DEV_ENV && hitsFile.exists();
 
         Map<String, Set<String>> documentSampleMap = new HashMap<>();
         List<String> classification = classifyHierarchical("Root", 1.0, specificityThreshold, coverageThresahold, host, documentSampleMap, cacheDir);
@@ -38,7 +40,7 @@ public class QProber {
                 if (f.isFile()) {
                     String[] parts = f.getName().split("-", 3);
                     if (parts[0].equals(host) && parts[1].equals("urls")) {
-                        String tempCat = parts[2].replaceAll("-", "/");
+                        String tempCat = parts[2].replaceAll("-", "/").replace(".txt", "");
                         documentSampleMap.put(tempCat, new HashSet<String>());
                         try (BufferedReader br = new BufferedReader(new FileReader(f))) {
                             String line;
@@ -55,10 +57,11 @@ public class QProber {
                 cacheDir.mkdir();
             }
             String category = classification.get(classification.size() - 1);
-            File urlFile = new File(jarDir+"/cache/"+host+"-urls-"+ category.replaceAll("/", "-") +".txt");
-            if (!urlFile.exists()) {
-                do {
-                    BufferedWriter writer = null;
+            File urlFile;
+            BufferedWriter writer = null;
+            do {
+                urlFile = new File(cachePath+"/"+host+"-urls-"+ category.replaceAll("/", "-") +".txt");
+                if (!urlFile.exists()) {
                     try {
                         writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(urlFile), "utf-8"));
                         Set<String> docSample = documentSampleMap.get(category);
@@ -69,11 +72,13 @@ public class QProber {
                     } catch (Exception e) {
                         System.out.println("Urls cache writing failed: " + e.toString());
                     } finally {
-                        if (writer!= null) { writer.close(); }
+                        if (writer != null) {
+                            writer.close();
+                        }
                     }
-                    category = CategoryHelper.getParent(category);
-                } while(!category.equals(""));
-            }
+                }
+                category = CategoryHelper.getParent(category);
+            } while(!category.equals(""));
         }
 
         return new ProbeResult(classification, documentSampleMap);

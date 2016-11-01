@@ -1,0 +1,1316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# owl: http://www.w3.org/2002/07/owl# rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rss: http://purl.org/rss/1.0/ site: http://www.health.com/ns#">
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--[if IE]><![endif]-->
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<![endif]--><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="path" content="http://www.health.com/nutrition/high-protein-diets" />
+<meta property="og:description" content="From Atkins and Paleo to South Beach and Zone, see how some of the most popular high-protein diets compare." />
+<meta property="og:image" content="http://cdn-img.health.com/sites/default/files/styles/2000x2000/public/1474644359/GettyImages-536917684.jpg?itok=5X3_9VXZ" />
+<link rel="apple-touch-icon" href="http://www.health.com/health-touch-icon-phone.png" />
+<link rel="apple-touch-icon" href="http://www.health.com/health-touch-icon-ipad-retina.png" sizes="144x144" />
+<link rel="shortcut icon" href="http://cdn-img.health.com/sites/all/themes/health/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="twitter:image:src" content="http://cdn-img.health.com/sites/default/files/styles/2000x2000/public/1474644359/GettyImages-536917684.jpg?itok=5X3_9VXZ" />
+<link rel="apple-touch-icon" href="http://www.health.com/health-touch-icon-iphone-retina.png" sizes="114x114" />
+<meta property="pinterest:description" content="From Atkins and Paleo to South Beach and Zone, see how some of the most popular high-protein diets compare." />
+<link rel="apple-touch-icon" href="http://www.health.com/health-touch-icon-ipad.png" sizes="72x72" />
+<link rel="dns-prefetch" href="//cdn-js.health.com" />
+<link rel="dns-prefetch" href="//cdn-css.health.com" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="//cdn-img.health.com" />
+<meta name="render_time" content="2016-11-01 14:28:40" />
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":false,"mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.health.com\/nutrition\/high-protein-diets"},"datePublished":"2016-09-06T12:30:53-04:00","dateModified":"2016-09-30T17:17:35-04:00","publisher":{"@type":"Organization","name":"Health.com","logo":{"@type":"ImageObject","url":"http:\/\/cdn-img.health.com\/sites\/all\/themes\/health\/logo.png","width":null,"height":null}}}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http:\/\/www.health.com\/","name":"Health"}},{"@type":"ListItem","position":2,"item":{"@id":"http:\/\/www.health.com\/nutrition","name":"Nutrition"}},{"@type":"ListItem","position":3,"item":{"@id":"http:\/\/www.health.com\/nutrition\/high-protein-diets","name":"From Paleo to Atkins: How Popular High-Protein Diets Stack Up\r\n"}}]}</script>
+<meta name="robots" content="NOODP" />
+<meta name="description" content="From Atkins and Paleo to South Beach and Zone, see how some of the most popular high-protein diets compare." />
+<link rel="canonical" href="http://www.health.com/nutrition/high-protein-diets" />
+<meta property="og:site_name" content="Health.com" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="From Paleo to Atkins: How Popular High-Protein Diets Stack Up" />
+<meta property="og:url" content="http://www.health.com/nutrition/high-protein-diets" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@goodhealth" />
+<meta name="twitter:url" content="http://www.health.com/nutrition/high-protein-diets" />
+<meta name="twitter:title" content="From Paleo to Atkins: How Popular High-Protein Diets Stack Up" />
+<meta name="twitter:description" content="Many people think the more protein, the better—but is that wise? Here&#039;s the lowdown on some of the best-known high-protein diet plans." />
+<meta name="ctype" content="listicle" />
+<meta property="pinterest:url" content="http://www.health.com/nutrition/high-protein-diets" />
+<meta property="vr:category" content="nutrition" />
+<meta property="vr:author" content="health editor" />
+<meta property="vr:type" content="listicle" />
+<meta property="fb:app_id" content="446428472109017" />
+    <title>High-Protein Diets - Health.com</title>
+    <link type="text/css" rel="stylesheet" href="//cdn-css.health.com/sites/default/files/advagg_css/css__B8IeU28Q12o5QqX7X8uvYSqLtbVXm0K8Qz16nXT8mIY__O7CDgVYT00L0N5ZUSU85kBp_rLXtCKkvRMK6ixNY0s0__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.css" media="all" />
+<style>
+/* <![CDATA[ */
+.panels-flexible-new .panels-flexible-region{padding:0;}.panels-flexible-new .panels-flexible-region-inside{padding-right:0.5em;padding-left:0.5em;}.panels-flexible-new .panels-flexible-region-inside-first{padding-left:0;}.panels-flexible-new .panels-flexible-region-inside-last{padding-right:0;}.panels-flexible-new .panels-flexible-column{padding:0;}.panels-flexible-new .panels-flexible-column-inside{padding-right:0.5em;padding-left:0.5em;}.panels-flexible-new .panels-flexible-column-inside-first{padding-left:0;}.panels-flexible-new .panels-flexible-column-inside-last{padding-right:0;}.panels-flexible-new .panels-flexible-row{padding:0 0 0.5em 0;margin:0;}.panels-flexible-new .panels-flexible-row-last{padding-bottom:0;}.panels-flexible-column-new-main{float:left;width:99.0000%;}.panels-flexible-new-inside{padding-right:0px;}.panels-flexible-new{width:auto;}.panels-flexible-region-new-center{float:left;width:99.0000%;}.panels-flexible-row-new-main-row-inside{padding-right:0px;}
+
+/* ]]> */
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn-css.health.com/sites/default/files/advagg_css/css__0I9AOSaW4eHOR7a2-6zwSXubBIFmWvf1_FEzImFWox0__a1YSGtVcYyqCbaP5IlambPrgZhdGKw11WJ3vYFDqIw4__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.css" media="all" />
+<style>
+/* <![CDATA[ */
+.panels-flexible-new .panels-flexible-region{padding:0;}.panels-flexible-new .panels-flexible-region-inside{padding-right:0.5em;padding-left:0.5em;}.panels-flexible-new .panels-flexible-region-inside-first{padding-left:0;}.panels-flexible-new .panels-flexible-region-inside-last{padding-right:0;}.panels-flexible-new .panels-flexible-column{padding:0;}.panels-flexible-new .panels-flexible-column-inside{padding-right:0.5em;padding-left:0.5em;}.panels-flexible-new .panels-flexible-column-inside-first{padding-left:0;}.panels-flexible-new .panels-flexible-column-inside-last{padding-right:0;}.panels-flexible-new .panels-flexible-row{padding:0 0 0.5em 0;margin:0;}.panels-flexible-new .panels-flexible-row-last{padding-bottom:0;}.panels-flexible-column-new-main{float:left;width:99.0000%;}.panels-flexible-new-inside{padding-right:0px;}.panels-flexible-new{width:auto;}.panels-flexible-region-new-center{float:left;width:99.0000%;}.panels-flexible-row-new-main-row-inside{padding-right:0px;}
+.panels-flexible-new .panels-flexible-region{padding:0;}.panels-flexible-new .panels-flexible-region-inside{padding-right:0.5em;padding-left:0.5em;}.panels-flexible-new .panels-flexible-region-inside-first{padding-left:0;}.panels-flexible-new .panels-flexible-region-inside-last{padding-right:0;}.panels-flexible-new .panels-flexible-column{padding:0;}.panels-flexible-new .panels-flexible-column-inside{padding-right:0.5em;padding-left:0.5em;}.panels-flexible-new .panels-flexible-column-inside-first{padding-left:0;}.panels-flexible-new .panels-flexible-column-inside-last{padding-right:0;}.panels-flexible-new .panels-flexible-row{padding:0 0 0.5em 0;margin:0;}.panels-flexible-new .panels-flexible-row-last{padding-bottom:0;}.panels-flexible-column-new-main{float:left;width:99.0000%;}.panels-flexible-new-inside{padding-right:0px;}.panels-flexible-new{width:auto;}.panels-flexible-region-new-center{float:left;width:99.0000%;}.panels-flexible-row-new-main-row-inside{padding-right:0px;}
+
+/* ]]> */
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn-css.health.com/sites/default/files/advagg_css/css__Aw6f6eg85Ne50bYLuv_6umYSrhMGm1uHeqtHV2tic4I__P2PH38PWFZPnl3w98Wa0owX8pK1qU9Xt2ec2vTUfPG0__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn-css.health.com/sites/default/files/advagg_css/css__tpYS2sxLT8ABzIPtRwAOsXHK1P7o0sgezbQtAhxpNaI__28ON8CtQm1BhfYIjvXccuFsnE8GEh4q2rsk7skUPaxM__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn-css.health.com/sites/default/files/advagg_css/css__3kqF_qAbaw3PnhjGpVwVQPEZWpYgkWJRhnKMX5lQdaw__BuNy5XdW0nNZPfTs14qvOcOVC8hqIoDFyz8pDE90Hm8__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.css" media="all" />
+    <!-- HTML5 element support for IE6-8 -->
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+  /*---------------------------------------------------------------------------
+  * Icon Styles (Generated from the IcoMoon app https://icomoon.io/app)
+  *--------------------------------------------------------------------------- */
+  @font-face {
+    font-family: 'icomoon';
+    src:url('http://www.health.com/sites/all/themes/health/fonts/icomoon.eot?ea2w9j');
+    src:url('http://www.health.com/sites/all/themes/health/fonts/icomoon.eot?#iefixea2w9j') format('embedded-opentype'),
+      url('http://www.health.com/sites/all/themes/health/fonts/icomoon.ttf?ea2w9j') format('truetype'),
+      url('http://www.health.com/sites/all/themes/health/fonts/icomoon.woff?ea2w9j') format('woff'),
+      url('http://www.health.com/sites/all/themes/health/fonts/icomoon.svg?ea2w9j#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-mail:before {
+    content: "\e601";
+  }
+  .icon-twitter:before {
+    content: "\ea91";
+  }
+  .icon-grid:before {
+    content: "\e60c";
+  }
+  .icon-close:before {
+    content: "\e605";
+  }
+  .icon-search:before {
+    content: "\e604";
+  }
+  .icon-social-facebook:before {
+    content: "\e606";
+  }
+  .icon-angle-right:before {
+    content: "\e607";
+  }
+  .icon-angle-down:before {
+    content: "\e608";
+  }
+  .icon-instagram:before {
+    content: "\e602";
+  }
+  .icon-chevron-thin-left:before {
+    content: "\e60b";
+  }
+  .icon-chevron-thin-down:before {
+    content: "\e609";
+  }
+  .icon-menu:before {
+    content: "\e60a";
+  }
+  .icon-chevron-thin-right:before {
+    content: "\e603";
+  }
+  .icon-pinterest:before {
+    content: "\e600";
+  }
+</style>
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(d) {
+  var config = {
+    hostname: 'fonts.timeinc.net',
+    kitId: 'wtk7occ',
+    baseURL: '//fonts.timeinc.net/',
+    scriptTimeout: 3000
+  },
+  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src=config.baseURL+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+})(document);
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__d4GsnEmcfvDfFogoBVs7V4-a20Ii1gt1fFipPROK_7g__W0njN6zCuv31sTAbpDDDOEJ07ZM6sjmjnpTdPpNuwOg__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var TGX_SITE_CONFIG = {"gpt_sync_mode":"async","refresh_oop_slot":true};
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var TI = TI || {};
+    TI.environment_vars = {
+      buildlife: 'ofz791',
+      fb_liking_app_id: 102761366429277,
+      theme_path: '/sites/all/themes/health',
+      web_base: 'http://www.health.com'
+    };
+  
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__kPXvRGuUfdfsIBEGWQxfvD4613eIOCtO3oMQnJUKFvw__Z7m4_ZQaUzccDKgNNipOHVgj3w7JGASwU2oM76t0UJs__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/all/libraries/requirejs/require.js?ofz791" data-main="//cdn-js.health.com/sites/all/themes/health/js/js-source/app/main.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function basicPopup(url) { popupWindow = window.open(url,'popUpWindow','height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes'); }
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__9B55Z2rrlUZXQ_bD7L1ANC8V8s9RA51wegY8ia3m7r0__et64XV940Lx94GiGxs1DUfkrGA3llqp7ZJKamf6k1dc__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"health","theme_token":"nlpL8DrLlCohqBRbXKbt4teuDmSr_8qrYhlEzInkPT8","css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/entity_embed\/css\/entity_embed.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/custom\/workflow_content_creation_ti\/ti_editorial_ckeditor_plugins\/plugins\/emoji\/css\/emoji_sprites.css":1,"0":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"1":1,"2":1,"sites\/all\/themes\/health\/css\/style.css":1},"js":{"sites\/all\/modules\/custom\/timeinc_advertising\/js\/before_ads_load.js":1,"http:\/\/tia.timeinc.net\/health\/tia_tgx.min.js":1,"sites\/all\/modules\/custom\/timeinc_advertising\/js\/tgx_ad_init.js":1,"sites\/all\/modules\/custom\/timeinc_advertising\/js\/tgx_ad_sticky_plugin.js":1,"sites\/all\/modules\/custom\/timeinc_advertising\/js\/universal_ad_logic.js":1,"\/sites\/all\/modules\/custom\/ti_image_lazy_load\/js\/ti-image-lazy-load.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"http:\/\/widgets.outbrain.com\/outbrain.js":1,"sites\/all\/libraries\/jquery-throttle-debounce\/jquery.ba-throttle-debounce.min.js":1,"sites\/all\/modules\/custom\/timeinc_advertising\/js\/2x9-firefox-fixer.js":1,"sites\/all\/modules\/custom\/social_media_field_formatter\/js\/social_media.js":1,"sites\/all\/modules\/custom\/external_integration_ti\/ti_udo\/js\/metadata.js":1,"sites\/all\/themes\/health\/js\/scripts.js":1,"\/\/assets.pinterest.com\/js\/pinit.js":1,"sites\/all\/modules\/custom\/content_types\/ti_lsg_hlt_package\/js\/ti_lsg_hlt_package.js":1,"sites\/all\/modules\/custom\/ti_lsg_hlt_newsletters\/js\/newsletters.js":1,"https:\/\/www.google.com\/recaptcha\/api.js?onload=google_recaptcha_onload\u0026render=explicit\u0026hl=en":1,"sites\/all\/modules\/custom\/timeinc_advertising\/js\/ad_relationships.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/2.1\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/health\/js\/js-source\/app\/modernizr.js":1,"sites\/all\/themes\/health\/js\/js-source\/app\/config.js":1,"sites\/all\/libraries\/requirejs\/require.js":1,"sites\/all\/themes\/health\/js\/js-source\/plugins\/pinit.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"ti_lsg_hlt_responsive":{"site_name":"Health.com"},"ad_settings_997447484":{"getAd":{"setZone":"","setPosition":"1","setParam":""},"id":997447484,"ad_id":"ad-997447484","type":"regular","cmtype":"","companion":0,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":true,"hide_selector":".leaderboard-ad-unit","minimum_time_to_show_ad":"2000"},"width":{"768":"728"},"height":{"768":"90"},"sizes":{"0":{"300x50":{"width":"300","height":"50"},"320x50":{"width":"320","height":"50"}},"768":{"728x90":{"width":"728","height":"90"}},"1024":{"728x90":{"width":"728","height":"90"},"970x250":{"width":"970","height":"250"}}},"multi_ad":{"0":true,"768":false,"1024":true},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":"-20"},"ad_settings_768167875":{"getAd":{"setZone":"","setPosition":"","setParam":""},"id":768167875,"ad_id":"ad-768167875","type":"regular","cmtype":"","companion":true,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"sizes":{"1024":{"300x250":{"width":"300","height":"250"},"300x600":{"width":"300","height":"600"}}},"multi_ad":{"1024":true},"sticky_time_delay":{"1024":"5000"},"sticky_ajax_disable":false,"ad_render_weight":"2"},"ad_settings_742615102":{"getAd":{"setZone":"","setPosition":"","setParam":""},"id":742615102,"ad_id":"ad-742615102","type":"cm","cmtype":"","companion":0,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":["170"],"height":["30"],"sizes":{"0":{"170x30":{"width":"170","height":"30"}}},"multi_ad":{"0":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":0},"ad_settings_ad_5x5_1":{"getAd":{"setZone":"","setPosition":"1","setParam":""},"id":"ad_5x5_1","ad_id":"ad-ad_5x5_1","type":"regular","cmtype":"","companion":0,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":["5"],"height":["5"],"sizes":{"0":{"5x5":{"width":"5","height":"5"}}},"multi_ad":{"0":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":"95"},"ad_settings_2095239417":{"getAd":{"setZone":"","setPosition":"1","setParam":""},"id":2095239417,"ad_id":"ad-2095239417","type":"regular","cmtype":"","companion":0,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":{"768":"1"},"height":{"768":"6"},"sizes":{"768":{"1x6":{"width":"1","height":"6"}}},"multi_ad":{"768":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":"96"},"ad_settings_910922649":{"getAd":{"setZone":"","setPosition":"contentfeedsub","setParam":""},"id":910922649,"ad_id":"ad-910922649","type":"cm","cmtype":"tout","companion":0,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":{"0":"500","768":"830"},"height":{"0":"500","768":"280"},"sizes":{"0":{"500x500":{"width":"500","height":"500"}},"768":{"830x280":{"width":"830","height":"280"}}},"multi_ad":{"0":false,"768":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":0},"ad_settings_1870997424":{"getAd":{"setZone":"","setPosition":"1","setParam":""},"id":1870997424,"ad_id":"ad-1870997424","type":"regular","cmtype":"","companion":0,"lazy_load":true,"lazy_load_viewport_offset":"300","universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":{"0":"300","1024":null},"height":{"0":"250","1024":null},"sizes":{"0":{"300x250":{"width":"300","height":"250"}},"1024":[]},"multi_ad":{"0":false,"1024":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":"3"},"ad_settings_560647666":{"getAd":{"setZone":"","setPosition":"","setParam":""},"id":560647666,"ad_id":"ad-560647666","type":"regular","cmtype":"","companion":0,"lazy_load":true,"lazy_load_viewport_offset":"900","universal_ad_logic":{"use_universal_ad_logic":true,"selector":".listicle-body .block-listicle-item","pixels_between":"500","teads_position":false,"yieldmo_position":"1","yieldmo_id":"1062940328994388380"},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":{"768":null},"height":{"768":null},"sizes":{"0":{"300x250":{"width":"300","height":"250"},"320x50":{"width":"320","height":"50"},"300x50":{"width":"300","height":"50"}},"768":[]},"multi_ad":{"0":true,"768":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":0},"ad_settings_519354494":{"getAd":{"setZone":"","setPosition":"1","setParam":""},"id":519354494,"ad_id":"ad-519354494","type":"regular","cmtype":"","companion":0,"lazy_load":false,"lazy_load_viewport_offset":0,"universal_ad_logic":{"use_universal_ad_logic":false,"selector":false,"pixels_between":"600","teads_position":false,"yieldmo_position":false,"yieldmo_id":false},"announce_in_view":false,"hide_ad":{"hide_when_ads_in_view":false,"hide_selector":false,"minimum_time_to_show_ad":false},"width":{"0":"320","768":"830","1024":"830"},"height":{"0":"260","768":"180","1024":"180"},"sizes":{"0":{"320x260":{"width":"320","height":"260"}},"768":{"830x180":{"width":"830","height":"180"}},"1024":{"830x180":{"width":"830","height":"180"}}},"multi_ad":{"0":false,"768":false,"1024":false},"sticky_time_delay":0,"sticky_ajax_disable":false,"ad_render_weight":0},"ad_settings":{"adConfig":{"setSitename":"3475.hlt2","setCmSitename":"cm.hlt2","setPopups":false,"setRevSciTracking":true,"setTacodaTracking":false,"setQuantcastTracking":false,"setBehaviorTracking":false,"setdisableInitLoad":false,"setDequeueAds":false},"adFactory":{"setZone":"nutrition","setChannel":"nutrition","setArticleId":"359138","setContentPage":true,"setContentType":"listicle"},"custom":{"stickHeaderSelector":".header-wrapper","2x9_firefox_fixer":"1"},"misc":{"module_path":"sites\/all\/modules\/custom\/timeinc_advertising","advagg_hash":"VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk"}},"urlIsAjaxTrusted":{"\/nutrition\/high-protein-diets":true},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":"1","popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":"1","tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+//--><!]]>
+</script>
+  </head>
+  <body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-359138 node-type-listicle" >
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+      <div class="region region-page-top">
+    
+<!-- Begin Metadata Object -->
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    window.Ti = window.Ti || {};
+    window.Ti.udo_metadata = {"author_name":"health editor","content_access":"free","content_id":"359138","content_package":"","content_package_id":"","content_package_section":"","friendly_url":"http:\/\/www.health.com\/nutrition\/high-protein-diets","page_name":"From Paleo to Atkins: How Popular High-Protein Diets Stack Up","publish_date":"2016-09-06T16:30:53+00:00","site_display_format":"desktop","site_section1":"nutrition","site_section2":"","tag_keywords":"","tag_visibility":"1","template_type":"listicle","channel":"health"};
+    window.Ti.udo_data_layer = ["article_teaser_type","author_name","author_type","available_app_ids","browse_refine_type","browse_refine_value","bundle_id","channel","click_id","content_access","content_id","content_package","content_package_id","content_package_section","country_code","currency_code","customer_country","customer_email","customer_first_name","customer_id","customer_state","customer_zip","display_date","event_name","food_convenience","food_cooking_method","food_courses","food_cuisine","food_dietary_considerations","food_excluded_ingredients","food_main_ingredients","food_season_occasion","franchise_name","franchise_year","franchise_list_view_type","franchise_pagination_value","franchise_sort_type","franchise_is_methodology","franchise_slide_number","friendly_url","grade_level","grocery_deals_category","grocery_deals_retailer","grocery_deals_search","grocery_deals_zip","has_continuous_service","has_donor","has_print_subscription","image_id","is_active_subscriber","is_agent_subscription","is_bill_me","is_giftee","is_renewable","health_journey","language_code","login_status","magazine_cover_title","magazine_feed","magazine_issue_date","markets","page_name","page_number","personality_name","primary_tag","publication_source","publish_date","rr_modules","search_keyword","search_results","secondary_renewal_offer","site_display_format","site_section1","site_section2","site_section3","site_section4","site_theme","slide_title","subscriber_expiration_date","subscriber_id","subscriber_type","subscription_status","tcm_conversion_microsite","tcm_conversion_page_flow","tag_keywords","tag_visibility","tcm_effort_key","tcm_form_error","tcm_keycode","tcm_newsletter_optin","tcm_mag_code","tcm_microsite","tcm_order_id","tcm_order_shipping_amount","tcm_order_subtotal","tcm_order_tax_amount","tcm_order_total","tcm_order_type","tcm_page_flow","tcm_payment_method","tcm_prefix","tcm_product_name","tcm_product_price","tcm_product_quantity","tcm_product_sku","tcm_product_sku_options","tcm_shipping_method","tcm_variation_id","team_name","template_type","ticker_symbol","tier_level","total_amount_due","treat_as_registered","user_actions","video_asset_id","video_franchise","video_name","video_player","video_player_type","video_segment","gallery_view","is_sponsored_page"];
+    window.Ti.udo_map = [];
+    //--><!]]>
+  </script>
+<!-- End Metadata Object -->
+<!-- Begin Tealium Integration -->
+
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    var utag_data = {"author_name":"health editor","content_access":"free","content_id":"359138","content_package":"","content_package_id":"","content_package_section":"","friendly_url":"http:\/\/www.health.com\/nutrition\/high-protein-diets","page_name":"From Paleo to Atkins: How Popular High-Protein Diets Stack Up","publish_date":"2016-09-06T16:30:53+00:00","site_display_format":"desktop","site_section1":"nutrition","site_section2":"","tag_keywords":"","tag_visibility":"1","template_type":"listicle","channel":"health"};
+    //--><!]]>
+  </script>
+
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    (function(a,b,c,d){
+      a='//tags.tiqcdn.com/utag/timeinc/health.com/prod/utag.js';
+      b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+      a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+    //--><!]]>
+  </script>
+
+  
+<!-- End Tealium Integration -->
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgIFUFZbGwICXVVWBwUE"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>  </div>
+    <style>
+/** Glyph Icons */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("http://www.health.com/sites/all/themes/health/fonts/bootstrap//glyphicons-halflings-regular.eot");
+  src: url("http://www.health.com/sites/all/themes/health/fonts/bootstrap//glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("http://www.health.com/sites/all/themes/health/fonts/bootstrap//glyphicons-halflings-regular.woff2") format("woff2"),url("http://www.health.com/sites/all/themes/health/fonts/bootstrap//glyphicons-halflings-regular.woff") format("woff"),url("http://www.health.com/sites/all/themes/health/fonts/bootstrap//glyphicons-halflings-regular.ttf") format("truetype"),url("http://www.health.com/sites/all/themes/health/fonts/bootstrap//glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+</style>
+<div class="header-wrapper">
+<div class="header-top">
+  <hr class="grey-gradient"/>
+  <header id="navbar" role="banner" class="navbar container navbar-default">
+    
+<div class="navbar-header">
+  <div class="hidden-md hidden-lg mobile-hamburger">
+    <span aria-hidden="true" class="hamburger-toggle icon-menu icon-close"></span>
+  </div>
+  <div class="hidden-xs hidden-sm hidden-md hidden-lg header-social-links">
+    <span class="navbar-text">Follow us:</span><span class="hamburger-follow">FOLLOW US</span><ul class="social-links">
+    <li class="facebook"><a href="https://www.facebook.com/health" class="facebook"><span class="icon-social-facebook"></span></a></li>
+    <li class="twitter"><a href="https://twitter.com/goodhealth" class="twitter"><span class="icon-twitter"></span></a></li>
+    <li class="pinterest"><a href="https://www.pinterest.com/health/" class="pinIt"><span class="icon-pinterest"></span></a></li>
+    <li class="instagram"><a href="https://www.instagram.com/healthmagazine" class="instagram"><span class="icon-instagram"></span></a></li>
+  </ul>  </div>
+
+      <a class="logo navbar-btn "  href="/" title="Home">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">
+        <g>
+          <g>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M860.1,541V214.2h59.3V541H860.1z"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M1100.2,536.9c-11.7,3.8-32.4,7.3-47.7,7.3c-51.4,0-73-23.4-73-70.8V344.3H939
+          v-48.7h40.4v-81.4h59.3v81.4h59.8v48.7h-59.8v117.3c0,20.6,7.2,30.2,26,30.2c11.6,0,26.2-2.9,35.4-6.6V536.9z"/>
+          <polygon fill-rule="evenodd" clip-rule="evenodd" points="193.5,344.7 314,344.7 314,214.2 378.6,214.2 378.6,541 314,541
+          314,404.8 193.5,404.8 193.5,541 128.9,541 128.9,214.2 193.5,214.2     "/>
+          <g>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M616,410.8c0-63.9-28-121.2-104.9-121.2c-72.5,0-110.6,55.6-110.6,128.7
+            c0,78.1,42.6,128.7,119.6,128.7c31.1,0,66.6-5.6,87.5-16.4v-53.1c-20.5,10.9-50.3,19-77.8,19c-38.9,0-63.2-18.3-68.1-60.2h153.5
+            C615.8,427.7,616,418.9,616,410.8z M461.1,394.3c4.2-40.6,22.3-56.7,50.8-56.7c27.2,0,45.3,23.2,45.1,56.7H461.1z"/>
+          </g>
+          <g>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M733.3,289.6c-32.7,0-60,5.4-81.3,14.9v53.3c21.4-10.8,48.2-16.7,73.8-16.7
+            c39.1,0,47.5,20.1,47.6,52.8c-14.1-4-31.4-6.4-48.4-6.4c-54.3,0-94.5,29.2-94.5,81.6c0,47.6,31,77.8,79.5,77.8
+            c28.1,0,49.5-9.2,65.4-28.2V541H833V383.5C833,326.8,802.6,289.6,733.3,289.6z M724.3,501.9c-22.6,0-36.3-11.6-36.3-34.9
+            c0-22.4,13.2-38.4,47.1-38.4c13.3,0,26.9,2.1,38.4,5.4v12.4C773.4,481,751,501.9,724.3,501.9z"/>
+          </g>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1249.4,289.6c-27.5,0-51.2,11.5-65.8,28.5V214.2H1124V541h59.6V405.4
+            c0-39.8,15.4-63.4,47.1-63.4c25.7,0,38.7,17.4,38.7,51.2V541h59.6V381.7C1329,330.3,1309.1,289.6,1249.4,289.6z"/>
+          </g>
+        </g>
+      </svg>
+    </a><!-- /logo -->
+  
+
+
+  <div class="collapse hamburger-menu-wrap">
+    <div class="nav-wrap-inner">
+      <div class="hamburger-search-box">
+        <form class="form-search content-search" action="#" method="post" id="search-block-form--2" accept-charset="UTF-8">
+          <div class="hamburger-input-group">
+           <input title="Enter the terms you wish to search for." placeholder="Type what you're looking for..." class="hamburger-form-control" type="text" name="search_block_form" value="" size="15" maxlength="128">
+            <span class="search-placeholder icon-search"></span>
+            <button type="submit" class="hamburger-btn">Search</button>
+          </div>
+        </form>
+      </div>
+      <ul class="menu nav navbar-nav"><li class="first leaf"><a href="http://news.health.com" title="">News</a></li>
+<li class="expanded dropdown"><a href="http://www.health.com/fitness" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Fitness</a><span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span><ul class="dropdown-menu"><li class="first leaf"><a href="http://www.health.com/fitness" title="">Fitness</a></li>
+<li class="leaf"><a href="http://www.health.com/fitness/plie-knee-tuck-lift" title="">Videos</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/abs/index.html" title="">Custom Workout Planner</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/challenge/core-challenge.html?email-signup=true" title="">30-Day Core Challenge</a></li>
+<li class="last leaf"><a href="http://www.health.com/microsites/challenge/total-body-challenge.html?email-signup=true" title="">30-Day Total Body Challenge</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="http://www.health.com/food" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Healthy Eating</a><span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span><ul class="dropdown-menu"><li class="first leaf"><a href="http://www.health.com/food" title="">Food</a></li>
+<li class="leaf"><a href="http://www.health.com/nutrition" title="">Nutrition</a></li>
+<li class="leaf"><a href="http://www.health.com/recipes" title="">Recipes</a></li>
+<li class="leaf"><a href="http://www.health.com/food/post-workout-juice" title="">Videos</a></li>
+<li class="leaf"><a href="http://www.health.com/food/healthy-swaps-less-calories-more-taste" title="">Healthy Swaps</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/challenge/veggie-challenge.html" title="">21-Day Veggie Challenge</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/asian/index.html" title="">Build Your Diabetes Meal Plan</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/sandwiches/index.html" title="">5-Day Healthy Lunch Planner</a></li>
+<li class="last leaf"><a href="http://www.health.com/food/giada-de-laurentiis-no-takeout-challenge?package_modal=1" id="" rel="" class="" style="" target="" title="">30-Day No Takeout Challenge</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="http://www.health.com/weight-loss" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Weight Loss</a><span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span><ul class="dropdown-menu"><li class="first leaf"><a href="http://www.health.com/weight-loss" title="">Weight Loss</a></li>
+<li class="leaf"><a href="http://www.health.com/weight-loss/cut-calories" title="">Videos</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/challenge/weight-loss-challenge.html" title="">30-Day Weight Loss Challenge</a></li>
+<li class="leaf"><a href="http://www.health.com/microsites/challenge/total-body-challenge.html?email-signup=true" title="">30-Day Total Body Challenge</a></li>
+<li class="last leaf"><a href="http://www.health.com/microsites/challenge/core-challenge.html?email-signup=true" title="">30-Day Core Challenge</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="http://www.health.com/mind-body" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Life</a><span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span><ul class="dropdown-menu"><li class="first leaf"><a href="http://www.health.com/home" title="">Home</a></li>
+<li class="leaf"><a href="http://www.health.com/mind-body" title="">Mind &amp; Body</a></li>
+<li class="leaf"><a href="http://www.health.com/family" title="">Family</a></li>
+<li class="leaf"><a href="http://www.health.com/pets" title="">Pets</a></li>
+<li class="leaf"><a href="http://www.health.com/sex" title="">Sex</a></li>
+<li class="last leaf"><a href="http://www.health.com/relationships" title="">Relationships</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="http://www.health.com/beauty" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Beauty</a><span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span><ul class="dropdown-menu"><li class="first leaf"><a href="http://www.health.com/beauty" title="">Beauty</a></li>
+<li class="leaf"><a href="http://www.health.com/style" title="">Style</a></li>
+<li class="leaf"><a href="http://www.health.com/celebrities" title="">Celebrities</a></li>
+<li class="last leaf"><a href="http://www.health.com/beauty/cellulite-facts" title="">Videos</a></li>
+</ul></li>
+<li class="leaf"><a href="http://www.health.com/diseases-conditions" title="">Health A-Z</a></li>
+<li class="leaf"><a href="https://smarts.health.com/a/classes" id="" rel="" class="" style="" target="" title="Health E-Learning">CLASSES</a></li>
+<li class="leaf"><a href="http://www.health.com/beauty/coping-with-psoriasis" id="" rel="" class="" style="" target="" title="">Coping with Psoriasis</a></li>
+<li class="last leaf"><a href="http://www.health.com/microsites/challenge/core-challenge.html?email-signup=true" title="">30-Day Core Challenge</a></li>
+</ul><div class="text-center subscribe-menu"><div class="subscribe"><ul class="menu nav navbar-nav"><li class="first last leaf"><a href="https://subscription.health.com/storefront/subscribe-to-health/link/1010824.html" title="">Subscribe</a></li>
+</ul></div><span class="hamburger-follow">FOLLOW US</span><ul class="social-links">
+    <li class="facebook"><a href="https://www.facebook.com/health" class="facebook"><span class="icon-social-facebook"></span></a></li>
+    <li class="twitter"><a href="https://twitter.com/goodhealth" class="twitter"><span class="icon-twitter"></span></a></li>
+    <li class="pinterest"><a href="https://www.pinterest.com/health/" class="pinIt"><span class="icon-pinterest"></span></a></li>
+    <li class="instagram"><a href="https://www.instagram.com/healthmagazine" class="instagram"><span class="icon-instagram"></span></a></li>
+  </ul></div>    </div>
+  </div>
+</div><!-- /navbar-header -->
+
+<div class="main-navigation navbar-collapse collapse main-container full-width">
+  <span aria-hidden="true" class="hamburger-toggle icon-menu icon-close"></span>
+  <nav class="main-navigation-wrapper" role="navigation">
+    <div class="main-menu-wrapper">
+      <p class="header-sticky-left hidden-xs">
+        <span class="header-sticky-icon hidden-xs"></span>
+        <span class="header-activewear hidden-xs">From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+</span>
+      </p>
+      <ul class="social-links social-ul" id="social-ul">
+  <li class="facebook-bg"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A//www.health.com/nutrition/high-protein-diets" class="facebook" target="_blank" onclick="communityTrack(&#039;share-facebook&#039;); basicPopup(this.href); return false;"><span class="icon-social-facebook"></span></a></li>
+  <li class="twitter-bg"><a href="http://www.twitter.com/intent/tweet?url=http%3A//www.health.com/nutrition/high-protein-diets&text=From%20Paleo%20to%20Atkins%3A%20How%20Popular%20High-Protein%20Diets%20Stack%20Up%0D%0A&via=goodhealth" class="twitter" target="_blank" onclick="communityTrack(&#039;share-twitter&#039;); basicPopup(this.href); return false;"><span class="icon-twitter"></span></a></li>
+  <li class="pinterest-bg"><a href="http://www.pinterest.com/pin/create/button?url=http%3A//www.health.com/nutrition/high-protein-diets&description=Many%20people%20think%20the%20more%20protein%2C%20the%20better%E2%80%94but%20is%20that%20wise%3F%20Here%27s%20the%20lowdown%20on%20some%20of%C2%A0the%20best-known%20high-protein%20diet%20plans.%0D%0A&media=http%3A//cdn-img.health.com/sites/default/files/styles/2000x2000/public/1474644359/GettyImages-536917684.jpg%3Fitok%3D5X3_9VXZ" class="pinterest" target="_blank" onclick="communityTrack(&#039;share-pinterest&#039;); basicPopup(this.href); return false;"><span class="icon-pinterest"></span></a></li>
+  <li class="mail-bg hidden-sm hidden-xs"><a href="http://cgi.timeinc.net/cgi-bin/mail/mailurl2friend.cgi?&url=http://www.health.com/nutrition/high-protein-diets&group=health6&path=health/emailfriend/&title=From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+ - Many people think the more protein, the better—but is that wise? Here's the lowdown on some of the best-known high-protein diet plans.
+" class="email-btn" target="_blank" onclick="communityTrack(&#039;share-email&#039;); basicPopup(this.href); return false;"><span class="icon-mail"></span></a></li>
+  <li class="mail-bg hidden-md hidden-lg"><a href="mailto:?body=From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+ - Many people think the more protein, the better—but is that wise? Here&#039;s the lowdown on some of the best-known high-protein diet plans.
+&amp;subject=From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+" class="email-btn" target="_top" onclick="communityTrack(&#039;share-email&#039;);"><span class="icon-mail"></span></a></li>
+</ul>
+            <ul id="secondary-menu" class="header-subscribe hidden-md hidden-lg"><li class="menu-46463 subscribe first last"><a href="https://subscription.health.com/storefront/subscribe-to-health/link/1010824.html" title="">Subscribe</a></li>
+</ul>      <a href="#" class="header-subscribe hidden-md hidden-lg"></a>
+              <div class="header-sticky-right">
+          <span class="header-sticky-icon"></span>
+          <a href="/nutrition/protein-for-salad"><span class="header-next-article hidden-xs hidden-sm">NEXT ARTICLE <span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span></span></a>
+          <a href="/nutrition/protein-for-salad"><span class="header-next-article hidden-lg hidden-md">NEXT <span class="submenu-toggle pull-right closed icon-chevron-thin-right"></span></span></a>
+        </div>
+            <ul class="menu nav navbar-nav hidden-xs hidden-sm" id="navbar-nav">
+        <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/fitness" title="">Fitness</a></li>
+<li class="leaf"><a href="/food" title="">Food</a></li>
+<li class="leaf"><a href="/weight-loss" title="">Weight Loss</a></li>
+<li class="leaf"><a href="/beauty" title="">Beauty</a></li>
+<li class="leaf"><a href="/diseases-conditions" title="">Health A-Z</a></li>
+<li class="leaf"><a href="https://smarts.health.com/a/classes " id="" rel="" class="" style="" target="" title="Health E-Learning Classes">CLASSES</a></li>
+<li class="leaf"><a href="https://subscription.health.com/storefront/subscribe-to-health/link/1010824.html" title="">Subscribe</a></li>
+<li class="last leaf"><a href="/beauty/coping-with-psoriasis" id="" rel="" class="" style="" target="" title="">Coping with Psoriasis</a></li>
+</ul>      </ul>
+                </div>
+    <div id="flyout-menu">
+        <div class="flyout-nav-menu hidden-xs hidden-sm">
+          <div class="condition-center-nav-menu">
+            <ul class="col-md-12 flyout-menu">
+              <li class="col-md-4"><a href="http://www.health.com/adult-adhd">Adult ADHD</a></li><li class="col-md-4"><a href="http://www.health.com/alzheimers">Alzheimer's Disease</a></li><li class="col-md-4"><a href="http://www.health.com/asthma">Asthma</a></li><li class="col-md-4"><a href="http://www.health.com/bipolar">Bipolar Disorder</a></li><li class="col-md-4"><a href="http://www.health.com/birth-control">Birth Control</a></li><li class="col-md-4"><a href="http://www.health.com/breast-cancer">Breast Cancer</a></li><li class="col-md-4"><a href="http://www.health.com/copd">COPD</a></li><li class="col-md-4"><a href="http://www.health.com/childhood-vaccines">Childhood Vaccines</a></li><li class="col-md-4"><a href="http://www.health.com/cholesterol">Cholesterol</a></li><li class="col-md-4"><a href="http://www.health.com/pain">Chronic Pain</a></li><li class="col-md-4"><a href="http://www.health.com/cold-flu-sinus">Cold, Flu, and Sinus</a></li><li class="col-md-4"><a href="http://www.health.com/crohns-disease">Crohn's Disease</a></li><li class="col-md-4"><a href="http://www.health.com/depression">Depression</a></li><li class="col-md-4"><a href="http://www.health.com/type-2-diabetes">Diabetes (Type 2)</a></li><li class="col-md-4"><a href="http://www.health.com/digestive-health">Digestive Health</a></li><li class="col-md-4"><a href="http://www.health.com/fibromyalgia">Fibromyalgia</a></li><li class="col-md-4"><a href="http://www.health.com/migraines-headaches">Headaches & Migraines</a></li><li class="col-md-4"><a href="http://www.health.com/incontinence">Incontinence</a></li><li class="col-md-4"><a href="http://www.health.com/menopause">Menopause</a></li><li class="col-md-4"><a href="http://www.health.com/multiple-sclerosis">Multiple Sclerosis</a></li><li class="col-md-4"><a href="http://www.health.com/osteoarthritis">Osteoarthritis</a></li><li class="col-md-4"><a href="http://www.health.com/psoriasis">Psoriasis</a></li><li class="col-md-4"><a href="http://www.health.com/rheumatoid-arthritis">Rheumatoid Arthritis</a></li><li class="col-md-4"><a href="http://www.health.com/sexual-health">Sexual Health</a></li><li class="col-md-4"><a href="http://www.health.com/sleep">Sleep</a></li><li class="col-md-4"><a href="http://www.health.com/ulcerative-colitis">Ulcerative Colitis</a></li>            </ul>
+            <a class="see-all-condition" href="/diseases-conditions">
+              <span class="see-all">SEE ALL CONDITIONS >></span>
+            </a>
+            <div class="flyout-content">
+              <h3 class="heading">featured</h3>
+              <div class="flyout-img-content">
+  <div class="col-md-4">
+    <div class="content">
+      <a href="/mind-body/immunotherapy-treatment"><img class="img-responsive center-block" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/mary-elizabeth-williams-immunotherapy.jpg?itok=s6bYaCVM" /></a>
+      <label class="label label-bottom label-link"><a href="/mind-body">Mind & Body</a></label>
+    </div>
+    <a href="/mind-body/immunotherapy-treatment" class="headline">
+      <span><p>I Survived Stage IV Melanoma: How Immunotherapy Saved My Life</p>
+</span>
+    </a>
+  </div>
+</div>
+<div class="flyout-img-content">
+  <div class="col-md-4">
+    <div class="content">
+      <a href="/beauty/coping-with-psoriasis"><img class="img-responsive center-block" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/migration/img/web/2013/12/slides/treat-psoriasis-400x400.jpg?itok=Xwtxse9f" /></a>
+      <label class="label label-bottom label-link"><a href="/beauty">Beauty</a></label>
+    </div>
+    <a href="/beauty/coping-with-psoriasis" class="headline">
+      <span>Coping with Psoriasis</span>
+    </a>
+  </div>
+</div>
+<div class="flyout-img-content">
+  <div class="col-md-4">
+    <div class="content">
+      <a href="/allergy/weird-allergens"><img class="img-responsive center-block" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1460474145/GettyImages-145062030.jpg?itok=pCGuva7I" /></a>
+      <label class="label label-bottom label-link"><a href="/allergy">Allergy</a></label>
+    </div>
+    <a href="/allergy/weird-allergens" class="headline">
+      <span><p>31 Things That Can Trigger Allergies</p>
+</span>
+    </a>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+  <span class="search-toggle icon-search hidden-xs hidden-sm"></span>
+  <div class="search-box hidden">
+    <form class="form-search content-search" action="/nutrition/high-protein-diets" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <div class="element-invisible">Search form</div>
+    <span class="search-placeholder icon-search"></span><input title="Enter the terms you wish to search for." id="edit-search-block-form" placeholder="Type what you&#039;re looking for..." autofocus="TRUE" class="form-control form-text" type="text" name="search_block_form" value="" size="15" maxlength="128" /><button type="submit" class="search-btn-header btn btn-success" value="Search">Search</button><div class="form-actions form-wrapper form-group" id="edit-actions--2"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit--2" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-tE8QillTT4RNRxz5o3ONbhGW9wdPYCIXzd__XN2USr8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div><!-- /main-navigation -->
+  </header>
+</div>
+<!-- /.header-top -->
+<div class="row row-centered leaderboard-ad-unit"></div>
+</div>
+
+<!-- Spacing and Package Header -->
+<div class="top-spacer">
+  </div>
+<!-- End of Spacing and Package Header -->
+
+<!-- Condition center Header -->
+<!-- End of Condition center Header -->
+
+<!-- Editor's Pic -->
+<!-- End of Editor's Pic -->
+
+<!-- Channel Header -->
+<!-- End of Channel Header -->
+
+<div class="main-container container">
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+    <!-- All CT header -->
+                <div class="breadcrump-header"><a href="/">Health</a> <span>/</span> <a href="/nutrition">Nutrition</a></div>
+      <h1 class="text-center content-title">From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+</h1>
+      <h2 class="text-center content-deck">Many people think the more protein, the better&mdash;but is that wise? Here&#39;s the lowdown on some of&nbsp;the best-known high-protein diet plans.
+</h2>
+    <div class="row text-center">
+    <div class="col-md-12 col-sm-12 col-xs-12 social-byline" id="challenge-social-byline">
+      <div class="content-social" >
+        <ul class="social-links social-ul" id="social-ul">
+  <li class="facebook-bg"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A//www.health.com/nutrition/high-protein-diets" class="facebook" target="_blank" onclick="communityTrack(&#039;share-facebook&#039;); basicPopup(this.href); return false;"><span class="icon-social-facebook"></span></a></li>
+  <li class="twitter-bg"><a href="http://www.twitter.com/intent/tweet?url=http%3A//www.health.com/nutrition/high-protein-diets&text=From%20Paleo%20to%20Atkins%3A%20How%20Popular%20High-Protein%20Diets%20Stack%20Up%0D%0A&via=goodhealth" class="twitter" target="_blank" onclick="communityTrack(&#039;share-twitter&#039;); basicPopup(this.href); return false;"><span class="icon-twitter"></span></a></li>
+  <li class="pinterest-bg"><a href="http://www.pinterest.com/pin/create/button?url=http%3A//www.health.com/nutrition/high-protein-diets&description=Many%20people%20think%20the%20more%20protein%2C%20the%20better%E2%80%94but%20is%20that%20wise%3F%20Here%27s%20the%20lowdown%20on%20some%20of%C2%A0the%20best-known%20high-protein%20diet%20plans.%0D%0A&media=http%3A//cdn-img.health.com/sites/default/files/styles/2000x2000/public/1474644359/GettyImages-536917684.jpg%3Fitok%3D5X3_9VXZ" class="pinterest" target="_blank" onclick="communityTrack(&#039;share-pinterest&#039;); basicPopup(this.href); return false;"><span class="icon-pinterest"></span></a></li>
+  <li class="mail-bg hidden-sm hidden-xs"><a href="http://cgi.timeinc.net/cgi-bin/mail/mailurl2friend.cgi?&url=http://www.health.com/nutrition/high-protein-diets&group=health6&path=health/emailfriend/&title=From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+ - Many people think the more protein, the better—but is that wise? Here's the lowdown on some of the best-known high-protein diet plans.
+" class="email-btn" target="_blank" onclick="communityTrack(&#039;share-email&#039;); basicPopup(this.href); return false;"><span class="icon-mail"></span></a></li>
+  <li class="mail-bg hidden-md hidden-lg"><a href="mailto:?body=From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+ - Many people think the more protein, the better—but is that wise? Here&#039;s the lowdown on some of the best-known high-protein diet plans.
+&amp;subject=From Paleo to Atkins: How Popular High-Protein Diets Stack Up
+" class="email-btn" target="_top" onclick="communityTrack(&#039;share-email&#039;);"><span class="icon-mail"></span></a></li>
+</ul>
+      </div>
+                          <div class="content-publish-date" >
+          September 30, 2016        </div>
+          </div>
+  </div>
+
+
+        <!-- Magazine Landing page header -->
+        <!-- to keep the right rail fixed, putting it first -->
+          <aside class="col-sm-3 right-rail hidden-xs hidden-sm pull-right" role="complementary">
+            <div id="right-rail-unit" >
+    <div class="right-rail-block right-rail-top-ad">
+          </div>
+          <!-- More Videos Section -->
+            <!-- Outbrain Section -->
+      <div class="right-rail-block outbrain-content"><div class="right-rail-label">sponsored stories</div><hr class="title-border"></div>      <!-- Trending now Section -->
+      <div class="right-rail-block popular-content"><div class="right-rail-label">trending now</div><hr class="title-border"><ul class="col-md-12"><li><a href="/health/gallery/0,,20501331,00.html">16 Ways to Lose Weight Fast
+</a><hr></li>
+<li><a href="/health/gallery/0,,20664616,00.html">24 Fat-Burning Ab Exercises (No Crunches!)
+</a><hr></li>
+<li><a href="/health/gallery/0,,20678467,00.html">31 Quick-and-Easy Fat-Burning Recipes
+</a><hr></li>
+<li><a href="/health/gallery/0,,20475957,00.html">Best Superfoods for Weight Loss
+</a><hr></li>
+<li><a href="/health/gallery/0,,20676415,00.html">The 20 Best Foods to Eat for Breakfast
+</a><hr></li>
+<li><a href="/health/gallery/0,,20640098,00.html">10 Ways to Soothe a Sore Throat
+</a></li>
+</ul></div>      <!-- Right rail news Section -->
+            </div>
+              </aside>  <!-- /#sidebar-second -->
+    
+    <section class="content-well col-sm-9">
+            <a id="main-content"></a>
+                                      
+        <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="panel-flexible panels-flexible-new clearfix" >
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-entity-view pane-node"  >
+  
+      
+  
+  <div class="pane-content">
+    <article id="node-359138" class="node node-listicle clearfix" about="/nutrition/high-protein-diets" typeof="sioc:Item foaf:Document">
+  <header class="content-header">
+      <div class="main-image">
+    <div class="pinit-button">
+  <a href="http://www.pinterest.com/pin/create/button?url=http://www.health.com/nutrition/high-protein-diets&description=Many people think the more protein, the better&mdash;but is that wise? Here&#39;s the lowdown on some of&nbsp;the best-known high-protein diet plans.
+&media=http://cdn-img.health.com/sites/default/files/styles/2000x2000/public/1474644359/GettyImages-536917684.jpg?itok=5X3_9VXZ" class="pinterest story-card__media-share" target="_blank" onclick="communityTrack('share-pinterest'); basicPopup(this.href); return false;">
+    <span class="icon-pinterest"></span>
+  </a>
+</div>
+          <img class = "img-responsive " src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1474644359/GettyImages-536917684.jpg?itok=lI5AEk__" data-smallres-src="http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1474644359/GettyImages-536917684.jpg?itok=WKNeHH7E" data-mediumres-src="http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1474644359/GettyImages-536917684.jpg?itok=6zHrTHZT" data-largeres-src="http://cdn-img.health.com/sites/default/files/styles/large_16_9/public/1474644359/GettyImages-536917684.jpg?itok=P8IoHYhx" data-original-src="http://cdn-img.health.com/sites/default/files/1474644359/GettyImages-536917684.jpg" alt="high-protein-diet-steak-vegetables" />
+      <input type="hidden" id="original_image_height" value="4000" />
+      <input type="hidden" id="original_image_width" value="5000" />
+         </div>
+    <p class="text-right credit">Photo: Getty Images</p>
+    <div class="listicle-intro">
+      <p><p>Protein is crucial to nearly every bodily function. We need it to have energy, to feel full, to build muscle, to process nutrients, and boost immunity to send chemical signals&mdash;basically, to stay alive. And with so much new research pointing to the nutrient&#39;s power as a hunger buster and super sculptor, it&#39;s easy to think the more protein, the better.&nbsp;But is that wise?</p>
+
+<p>&nbsp;</p>
+
+<p>When experts decry protein-heavy diets, the issue is usually not quantity but quality. &quot;It&#39;s not protein per se that&#39;s a problem, but the &#39;passengers&#39; it brings with it,&quot; explains Tom Rifai, MD, regional medical director of Metabolic Health and Weight Management for the Henry Ford Health System in Detroit. &quot;You can&#39;t compare egg whites, fish, or beans to fatty porterhouse steak.&quot; Eating a lot of meat means getting a ton of calories and saturated fat as well as a digestive by-product called TMAO, all of which can contribute to higher risks of certain cancers, <a href="http://www.health.com/type-2-diabetes" target="_blank">diabetes</a>, and cardiovascular disease. Indeed, a 2014 study published in Cell Metabolism showed a hike in cancer mortality risk for people who ate more animal protein in midlife. On the flip side, a new study from the Harvard T.H. Chan School of Public Health found that adults who ate a plant-based diet and dropped one or two servings of animal-based foods&mdash;to four or fewer servings a day&mdash;cut their risk of type 2 diabetes by up to 20 percent. The takeaway: If you want to bump up your protein, grab those extra grams from <a href="http://www.health.com/health/gallery/0,,20718479,00.html" target="_blank">plant sources</a> or even fish (both of which offer beneficial nutrients on top of protein) rather than red meat.</p>
+
+<p>&nbsp;</p>
+
+<p>Curious about how some of the more popular high-protein diets stack up? Here&#39;s the lowdown.</p>
+</p>
+    </div>
+  </header>
+  <section class="section listicle-body" >
+    <div class="listicle">
+      <div class="block block-listicle-item block-article-list-item">
+  <div class="listicle-item-deck row">
+    <div class="vertical-item-list hidden-xs hidden-sm">
+      <div class="listicle-item-head">
+        <div class="listicle-count-wrap img-circle">
+          <div class="listicle-count">1</div>
+        </div>
+        <h2 class="listicle-item-headline">Atkins
+</h2>
+      </div>
+      <div class="listicle-item-deck-content ">
+        <p><p><strong>What it is: </strong>In Phase 1 of the classic plan (now called Atkins 20), you aim for 10 percent of daily calories from carbs; the rest come from protein and fat.</p>
+
+<p><strong>Pros: </strong>Can help you shed weight short-term; may improve blood sugar levels.</p>
+
+<p><strong>Cons:</strong> Many people replace the missing carbs with red meat and saturated fat.</p>
+
+<p><strong>Bottom line:</strong> It can help kick-start weight loss, but the long-term effects of restricting carbs and eating excessive animal fat are murky. A vegan spin-off, <a href="https://www.atkins.com/how-it-works/library/articles/the-eco-atkins-diet" target="_blank">Eco-Atkins</a>, calls for getting protein (about 31 percent of calories) from plant sources.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $17; <a href="https://www.amazon.com/New-Atkins-Made-Easy-Starting/dp/1476729956/ref=sr_1_2">amazon.com</a>
+</span></p>
+      </div>
+    </div>
+    <div class="listicle-item-head hidden-md hidden-lg">
+      <div class="listicle-count-wrap img-circle">
+        <div class="listicle-count">1</div>
+      </div>
+      <h2 class="listicle-item-headline">Atkins
+</h2>
+    </div>
+    <div class="listicle-item-deck-content hidden-md hidden-lg">
+        <p><p><strong>What it is: </strong>In Phase 1 of the classic plan (now called Atkins 20), you aim for 10 percent of daily calories from carbs; the rest come from protein and fat.</p>
+
+<p><strong>Pros: </strong>Can help you shed weight short-term; may improve blood sugar levels.</p>
+
+<p><strong>Cons:</strong> Many people replace the missing carbs with red meat and saturated fat.</p>
+
+<p><strong>Bottom line:</strong> It can help kick-start weight loss, but the long-term effects of restricting carbs and eating excessive animal fat are murky. A vegan spin-off, <a href="https://www.atkins.com/how-it-works/library/articles/the-eco-atkins-diet" target="_blank">Eco-Atkins</a>, calls for getting protein (about 31 percent of calories) from plant sources.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $17; <a href="https://www.amazon.com/New-Atkins-Made-Easy-Starting/dp/1476729956/ref=sr_1_2">amazon.com</a>
+</span></p>
+    </div>
+        <div class="vertical-list-image">
+      <div class="listicle-item-deck-image">
+        <div class="pinit-button">
+  <a href="http://www.pinterest.com/pin/create/button?url=http://www.health.com/nutrition/high-protein-diets&description=Atkins
+: What it is: In Phase 1 of the classic plan (now called Atkins 20), you aim for 10 percent of daily calories from carbs; the rest come from protein and fat.
+
+Pros: Can help you shed weight short-term; may improve blood sugar levels.
+
+Cons: Many people replace the missing carbs with red meat and saturated fat.
+
+Bottom line: It can help kick-start weight loss, but the long-term effects of restricting carbs and eating excessive animal fat are murky. A vegan spin-off, Eco-Atkins, calls for getting protein (about 31 percent of calories) from plant sources.
+&media=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F2000x2000%2Fpublic%2F1474644359%2Fatkins-diet-book.jpg%3Fitok%3D3SLzPkPt" class="pinterest story-card__media-share" target="_blank" onclick="communityTrack('share-pinterest'); basicPopup(this.href); return false;">
+    <span class="icon-pinterest"></span>
+  </a>
+</div>
+        <img typeof="foaf:Image" class="img-responsive" src="http://cdn-img.health.com/sites/default/files/styles/300x300/public/1474644359/atkins-diet-book.jpg?itok=K9o8XU3n" alt="" title="" />                  <p class="credit text-right">Photo: Courtesy of Publisher
+</p>
+              </div>
+    </div>
+    </div>
+</div>
+<div class="block block-listicle-item block-article-list-item">
+  <div class="listicle-item-deck row">
+    <div class="vertical-item-list hidden-xs hidden-sm">
+      <div class="listicle-item-head">
+        <div class="listicle-count-wrap img-circle">
+          <div class="listicle-count">2</div>
+        </div>
+        <h2 class="listicle-item-headline">Paleo
+</h2>
+      </div>
+      <div class="listicle-item-deck-content ">
+        <p><p><strong>What it is: </strong>Focuses on foods that can be hunted and gathered, with 19 to 35 percent of calories coming from protein (mostly animal sources).</p>
+
+<p><strong>Pros:</strong> Banishing refined carbs and processed foods can help with weight and blood sugar control.</p>
+
+<p><strong>Cons:</strong> Often high in saturated fat; omits healthy dairy, whole grains, and legumes.</p>
+
+<p><strong>Bottom line: </strong>Eating more whole foods, including quality protein and produce, is never a bad thing, but cutting out legumes and whole grains could leave you short on vitamins and fiber.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $15; <a href="https://www.amazon.com/Paleo-Diet-Weight-Healthy-Designed/dp/0470913029/ref=sr_1_2">amazon.com</a>
+</span></p>
+      </div>
+    </div>
+    <div class="listicle-item-head hidden-md hidden-lg">
+      <div class="listicle-count-wrap img-circle">
+        <div class="listicle-count">2</div>
+      </div>
+      <h2 class="listicle-item-headline">Paleo
+</h2>
+    </div>
+    <div class="listicle-item-deck-content hidden-md hidden-lg">
+        <p><p><strong>What it is: </strong>Focuses on foods that can be hunted and gathered, with 19 to 35 percent of calories coming from protein (mostly animal sources).</p>
+
+<p><strong>Pros:</strong> Banishing refined carbs and processed foods can help with weight and blood sugar control.</p>
+
+<p><strong>Cons:</strong> Often high in saturated fat; omits healthy dairy, whole grains, and legumes.</p>
+
+<p><strong>Bottom line: </strong>Eating more whole foods, including quality protein and produce, is never a bad thing, but cutting out legumes and whole grains could leave you short on vitamins and fiber.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $15; <a href="https://www.amazon.com/Paleo-Diet-Weight-Healthy-Designed/dp/0470913029/ref=sr_1_2">amazon.com</a>
+</span></p>
+    </div>
+        <div class="vertical-list-image">
+      <div class="listicle-item-deck-image">
+        <div class="pinit-button">
+  <a href="http://www.pinterest.com/pin/create/button?url=http://www.health.com/nutrition/high-protein-diets&description=Paleo
+: What it is: Focuses on foods that can be hunted and gathered, with 19 to 35 percent of calories coming from protein (mostly animal sources).
+
+Pros: Banishing refined carbs and processed foods can help with weight and blood sugar control.
+
+Cons: Often high in saturated fat; omits healthy dairy, whole grains, and legumes.
+
+Bottom line: Eating more whole foods, including quality protein and produce, is never a bad thing, but cutting out legumes and whole grains could leave you short on vitamins and fiber.
+&media=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F2000x2000%2Fpublic%2F1474644359%2Fpaleo-diet-book.jpg%3Fitok%3D9xbeqiAQ" class="pinterest story-card__media-share" target="_blank" onclick="communityTrack('share-pinterest'); basicPopup(this.href); return false;">
+    <span class="icon-pinterest"></span>
+  </a>
+</div>
+        <img typeof="foaf:Image" class="img-responsive" src="http://cdn-img.health.com/sites/default/files/styles/300x300/public/1474644359/paleo-diet-book.jpg?itok=4SH4jwCE" alt="" title="" />                  <p class="credit text-right">Photo: Courtesy of Publisher
+</p>
+              </div>
+    </div>
+    </div>
+</div>
+<div class="block block-listicle-item block-article-list-item">
+  <div class="listicle-item-deck row">
+    <div class="vertical-item-list hidden-xs hidden-sm">
+      <div class="listicle-item-head">
+        <div class="listicle-count-wrap img-circle">
+          <div class="listicle-count">3</div>
+        </div>
+        <h2 class="listicle-item-headline">South Beach
+</h2>
+      </div>
+      <div class="listicle-item-deck-content ">
+        <p><p><strong>What it is:</strong> Reduces carbs to about 30 percent of daily calories (in its first phase), with the balance made up by lean protein and unsaturated fats.</p>
+
+<p><strong>Pros:</strong> While the first phase reduces carbs somewhat steeply, the plan as a whole provides a healthy combination of fruits, veggies, legumes, grains, good fats, and protein.</p>
+
+<p><strong>Cons:</strong> If you get most of the protein from animal products, the diet can still be high in saturated fat.</p>
+
+<p><strong>Bottom line:</strong> It&rsquo;s a more moderate way to slash carbs and ramp up protein intake.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $7; <a href="https://www.amazon.com/South-Beach-Diet-Delicious-Doctor-designed/dp/B001C3N1XW/ref=sr_1_3">amazon.com</a>
+</span></p>
+      </div>
+    </div>
+    <div class="listicle-item-head hidden-md hidden-lg">
+      <div class="listicle-count-wrap img-circle">
+        <div class="listicle-count">3</div>
+      </div>
+      <h2 class="listicle-item-headline">South Beach
+</h2>
+    </div>
+    <div class="listicle-item-deck-content hidden-md hidden-lg">
+        <p><p><strong>What it is:</strong> Reduces carbs to about 30 percent of daily calories (in its first phase), with the balance made up by lean protein and unsaturated fats.</p>
+
+<p><strong>Pros:</strong> While the first phase reduces carbs somewhat steeply, the plan as a whole provides a healthy combination of fruits, veggies, legumes, grains, good fats, and protein.</p>
+
+<p><strong>Cons:</strong> If you get most of the protein from animal products, the diet can still be high in saturated fat.</p>
+
+<p><strong>Bottom line:</strong> It&rsquo;s a more moderate way to slash carbs and ramp up protein intake.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $7; <a href="https://www.amazon.com/South-Beach-Diet-Delicious-Doctor-designed/dp/B001C3N1XW/ref=sr_1_3">amazon.com</a>
+</span></p>
+    </div>
+        <div class="vertical-list-image">
+      <div class="listicle-item-deck-image">
+        <div class="pinit-button">
+  <a href="http://www.pinterest.com/pin/create/button?url=http://www.health.com/nutrition/high-protein-diets&description=South Beach
+: What it is: Reduces carbs to about 30 percent of daily calories (in its first phase), with the balance made up by lean protein and unsaturated fats.
+
+Pros: While the first phase reduces carbs somewhat steeply, the plan as a whole provides a healthy combination of fruits, veggies, legumes, grains, good fats, and protein.
+
+Cons: If you get most of the protein from animal products, the diet can still be high in saturated fat.
+
+Bottom line: It&rsquo;s a more moderate way to slash carbs and ramp up protein intake.
+&media=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F2000x2000%2Fpublic%2F1474644359%2Fsouth-beach-diet-book.jpg%3Fitok%3DXqPvQoxC" class="pinterest story-card__media-share" target="_blank" onclick="communityTrack('share-pinterest'); basicPopup(this.href); return false;">
+    <span class="icon-pinterest"></span>
+  </a>
+</div>
+        <img typeof="foaf:Image" class="img-responsive" src="http://cdn-img.health.com/sites/default/files/styles/300x300/public/1474644359/south-beach-diet-book.jpg?itok=Hi0O-a1i" alt="" title="" />                  <p class="credit text-right">Photo: Courtesy of Publisher
+</p>
+              </div>
+    </div>
+    </div>
+</div>
+<div class="block block-listicle-item block-article-list-item">
+  <div class="listicle-item-deck row">
+    <div class="vertical-item-list hidden-xs hidden-sm">
+      <div class="listicle-item-head">
+        <div class="listicle-count-wrap img-circle">
+          <div class="listicle-count">4</div>
+        </div>
+        <h2 class="listicle-item-headline">Zone
+</h2>
+      </div>
+      <div class="listicle-item-deck-content ">
+        <p><p><strong>What it is:</strong> Every meal and snack aims for a mix of 30 percent protein, 40 percent carbs and 30 percent<br />
+fat, with the goal of lowering inflammation and improving hormonal control.</p>
+
+<p><strong>Pros: </strong>Promotes weight loss; includes less total fat and cholesterol and a more moderate amount of carbs than other high-protein-diets.</p>
+
+<p><strong>Cons: </strong>You may still end up eating fewer veggies, fruits, whole grains, legumes, and other healthy carbs.</p>
+
+<p><strong>Bottom line:</strong> It can be hard to stick with a plan that demands a formula each time you bring fork to mouth.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $30; <a href="https://www.amazon.com/Enter-Zone-Dietary-Road-map/dp/0060391502/ref=sr_1_4">amazon.com</a>
+</span></p>
+      </div>
+    </div>
+    <div class="listicle-item-head hidden-md hidden-lg">
+      <div class="listicle-count-wrap img-circle">
+        <div class="listicle-count">4</div>
+      </div>
+      <h2 class="listicle-item-headline">Zone
+</h2>
+    </div>
+    <div class="listicle-item-deck-content hidden-md hidden-lg">
+        <p><p><strong>What it is:</strong> Every meal and snack aims for a mix of 30 percent protein, 40 percent carbs and 30 percent<br />
+fat, with the goal of lowering inflammation and improving hormonal control.</p>
+
+<p><strong>Pros: </strong>Promotes weight loss; includes less total fat and cholesterol and a more moderate amount of carbs than other high-protein-diets.</p>
+
+<p><strong>Cons: </strong>You may still end up eating fewer veggies, fruits, whole grains, legumes, and other healthy carbs.</p>
+
+<p><strong>Bottom line:</strong> It can be hard to stick with a plan that demands a formula each time you bring fork to mouth.</p>
+</p>
+        <p><span class ="buy-link"><strong>To buy</strong>: $30; <a href="https://www.amazon.com/Enter-Zone-Dietary-Road-map/dp/0060391502/ref=sr_1_4">amazon.com</a>
+</span></p>
+    </div>
+        <div class="vertical-list-image">
+      <div class="listicle-item-deck-image">
+        <div class="pinit-button">
+  <a href="http://www.pinterest.com/pin/create/button?url=http://www.health.com/nutrition/high-protein-diets&description=Zone
+: What it is: Every meal and snack aims for a mix of 30 percent protein, 40 percent carbs and 30 percent
+fat, with the goal of lowering inflammation and improving hormonal control.
+
+Pros: Promotes weight loss; includes less total fat and cholesterol and a more moderate amount of carbs than other high-protein-diets.
+
+Cons: You may still end up eating fewer veggies, fruits, whole grains, legumes, and other healthy carbs.
+
+Bottom line: It can be hard to stick with a plan that demands a formula each time you bring fork to mouth.
+&media=http%3A%2F%2Fcdn-img.health.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F2000x2000%2Fpublic%2F1474644359%2Fzone-diet-book.jpg%3Fitok%3DYcIirxYQ" class="pinterest story-card__media-share" target="_blank" onclick="communityTrack('share-pinterest'); basicPopup(this.href); return false;">
+    <span class="icon-pinterest"></span>
+  </a>
+</div>
+        <img typeof="foaf:Image" class="img-responsive" src="http://cdn-img.health.com/sites/default/files/styles/300x300/public/1474644359/zone-diet-book.jpg?itok=djKPzXyl" alt="" title="" />                  <p class="credit text-right">Photo: Courtesy of Publisher
+</p>
+              </div>
+    </div>
+    </div>
+</div>
+    </div>
+  </section>
+</article>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-panels-mini pane-common-leaderboard-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-flexible panels-flexible-new clearfix" id="mini-panel-common_leaderboard_ad">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate ad-refresh" id="ad-997447484" data-id="997447484" data-type="regular" data-relocate-position="prepend" data-relocate-selector=".leaderboard-ad-unit" data-relocate-remove="0"></div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-panels-mini pane-common-ads"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-flexible panels-flexible-new clearfix" id="mini-panel-common_ads">
+<div class="panel-flexible-inside panels-flexible-new-inside">
+<div class="panels-flexible-region panels-flexible-region-new-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-new-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate ad-refresh sticky-ad" id="ad-768167875" data-id="768167875" data-type="regular" data-relocate-position="prepend" data-relocate-selector=".right-rail-top-ad" data-relocate-remove="1"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate" id="ad-742615102" data-id="742615102" data-type="cm" data-relocate-position="append" data-relocate-selector=".ad170x30-logo" data-relocate-remove="1"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate" id="ad-ad_5x5_1" data-id="ad_5x5_1" data-type="regular" data-relocate-position="append" data-relocate-selector=".teads" data-relocate-remove="1"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate ad-refresh" id="ad-2095239417" data-id="2095239417" data-type="regular" data-relocate-position="after" data-relocate-selector=".footer" data-relocate-remove="0"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate" id="ad-910922649" data-id="910922649" data-type="cm" data-relocate-position="prepend" data-relocate-selector=".feed-promo-unit" data-relocate-remove="1"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate" id="ad-1870997424" data-id="1870997424" data-type="regular" data-relocate-position="append" data-relocate-selector=".inline-ad" data-relocate-remove="1"></div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder" id="ad-560647666" data-id="560647666" data-type="regular"></div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-tgx-ad"  >
+  
+      
+  
+  <div class="pane-content">
+    
+    <div  class="ad-placeholder relocate" id="ad-519354494" data-id="519354494" data-type="regular" data-relocate-position="prepend" data-relocate-selector="#ad-nativo" data-relocate-remove="1"></div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+</section>
+  </div>
+                            <div class="row outbrain-content">
+            <div class="heading">sponsored stories</div>
+            <hr class="title-border-page">
+             <div class="OUTBRAIN" data-src="http://www.health.com/nutrition/high-protein-diets" data-widget-id="AR_10" data-ob-template="Health" ></div>
+            <!-- This will be relocated to the right rail with JS. -->
+                           <div class="OUTBRAIN" data-src="http://www.health.com/nutrition/high-protein-diets" data-widget-id="SB_10" data-ob-template="Health" ></div>
+                      </div>
+          </section>
+  </div>
+</div>
+<div id="content-footer-wrapper">
+            <div class="container">
+        <div class="content-footer">
+          <hr class="grey-gradient"/>
+<div class="row more-from-health hidden-xs">
+  <div class="heading">more from health</div>
+  <hr class="title-border-page">
+  <div class="row more_from_health_content">
+    <div class="col-sm-6 col-md-3 more-from-health-items">
+  <div class="img">
+          <label class="label label-bottom label-link"><a href="/food">Food</a></label>
+        <a href="/health/gallery/0,,20692801,00.html">
+      <img class="center-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=" data-src="http://cdn-img.health.com/sites/default/files/styles/240x240/public/migration/img/mag/2012/09/eggs-400x400.jpg?itok=U9nEWxlp" alt="eggs" />          </a>
+  </div>
+  <a href="/health/gallery/0,,20692801,00.html" class="headline"><p>
+<style type="text/css"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
+</style>
+<span data-sheets-userformat="{&quot;2&quot;:15167,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:15724527},&quot;5&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;6&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;7&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;8&quot;:{&quot;1&quot;:[{&quot;1&quot;:2,&quot;2&quot;:0,&quot;5&quot;:{&quot;1&quot;:2,&quot;2&quot;:0}},{&quot;1&quot;:0,&quot;2&quot;:0,&quot;3&quot;:3},{&quot;1&quot;:1,&quot;2&quot;:0,&quot;4&quot;:1}]},&quot;11&quot;:3,&quot;12&quot;:0,&quot;14&quot;:{&quot;1&quot;:2,&quot;2&quot;:0},&quot;15&quot;:&quot;Arial&quot;,&quot;16&quot;:10}" data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Breakfast Ideas to Kick Start Your day&quot;}" style="font-size:100%;font-family:Arial;color:#000000;">Breakfast Ideas to Kick Start Your Day</span></p>
+</a>
+</div>
+<div class="col-sm-6 col-md-3 more-from-health-items">
+  <div class="img">
+          <label class="label label-bottom"><span>Food</span></label>
+        <a href="/health/video/0,,20878825,00.html">
+      <img class="center-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=" data-src="http://cdn-img.health.com/sites/default/files/styles/240x240/public/migration/images/slides/edamame-frozen-peas-400x400.jpg?itok=tqeYCR_w" alt="edamame-frozen-peas" />              <span class="more-from-health-video-icon">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#fff" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+             <path d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14.5c-3.59 0-6.5-2.91-6.5-6.5s2.91-6.5 6.5-6.5 6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5zM6 4.5l6 3.5-6 3.5z"></path>
+           </svg>
+        </span>
+          </a>
+  </div>
+  <a href="/health/video/0,,20878825,00.html" class="headline">3 Surprising Protein Sources</a>
+</div>
+<div class="col-sm-6 col-md-3 more-from-health-items">
+  <div class="img">
+          <label class="label label-bottom"><span>Food</span></label>
+        <a href="/health/video/0,,20973780,00.html">
+      <img class="center-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=" data-src="http://cdn-img.health.com/sites/default/files/styles/240x240/public/migration/img/web/2015/12/protein-green-peas-400x400.jpg?itok=KbBctpvS" alt="protein-green-peas" />              <span class="more-from-health-video-icon">
+           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#fff" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+             <path d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14.5c-3.59 0-6.5-2.91-6.5-6.5s2.91-6.5 6.5-6.5 6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5zM6 4.5l6 3.5-6 3.5z"></path>
+           </svg>
+        </span>
+          </a>
+  </div>
+  <a href="/health/video/0,,20973780,00.html" class="headline">10 Ways Get Protein Without Eating Meat</a>
+</div>
+<div class="col-sm-6 col-md-3 more-from-health-items">
+  <div class="img">
+          <label class="label label-bottom label-link"><a href="/food">Food</a></label>
+        <a href="/health/gallery/0,,20932754,00.html">
+      <img class="center-block" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII=" data-src="http://cdn-img.health.com/sites/default/files/styles/240x240/public/styles/main/public/pulse-opener-400x400.jpg?itok=MOhxV6fw" alt="pulse" />          </a>
+  </div>
+  <a href="/health/gallery/0,,20932754,00.html" class="headline">10 Protein-Packed Pulse Recipes That Satisfy
+</a>
+</div>
+  </div>
+  </div>
+<div class="row trending-now hidden-lg hidden-md">
+        <div class="right-rail-label">trending</div>
+    <hr class="title-border-page">
+    <div class="row">
+      <div class="right-rail-block popular-content"><ul class="col-md-12"><li><a href="/health/gallery/0,,20501331,00.html">16 Ways to Lose Weight Fast
+</a><hr></li>
+<li><a href="/health/gallery/0,,20664616,00.html">24 Fat-Burning Ab Exercises (No Crunches!)
+</a><hr></li>
+<li><a href="/health/gallery/0,,20678467,00.html">31 Quick-and-Easy Fat-Burning Recipes
+</a><hr></li>
+<li><a href="/health/gallery/0,,20475957,00.html">Best Superfoods for Weight Loss
+</a><hr></li>
+<li><a href="/health/gallery/0,,20676415,00.html">The 20 Best Foods to Eat for Breakfast
+</a><hr></li>
+<li><a href="/health/gallery/0,,20640098,00.html">10 Ways to Soothe a Sore Throat
+</a></li>
+</ul></div>    </div>
+  </div>
+        </div><!-- /#footer-content -->
+      </div>
+      <hr />
+      <div class="main-container container content-feed-container">
+        <div class="row">
+          <aside class="col-sm-3 right-rail hidden-xs hidden-sm pull-right">
+          </aside>
+          <section class="content-well col-sm-9">
+            <div class ="row vcenter space-above space-bottom">
+              <div class="newsletter-block">
+                <div class="carousel-caption text-over-newsletter">
+                  <p class="nl-header">GET Healthy Now</p>
+                  <p class="hidden-xs">News, workouts, recipes, and more.</p>
+                  <form action="/nutrition/high-protein-diets" method="post" id="ti-lsg-hlt-newsletters-signup-responsive-form" accept-charset="UTF-8"><div><div id='thankyou-text'></div><div class="form-group row"><div class="email-zip"><div class="email-wrapper col-sm-6"><span id="email-error"></span><div class="form-item form-item-email form-type-textfield form-group"><input onfocus="if (this.value == &#039;Email address&#039;) {this.value = &#039;&#039;;}" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Email address&#039;;}" class="input-padding form-control form-text required" type="text" id="edit-email" name="email" value="Email address" size="60" maxlength="128" /></div></div><div class="zipcode-wrapper col-sm-6"><span id= "zipcode-error"></span><div class="form-item form-item-zipcode form-type-textfield form-group"><input class="input-padding form-control form-text required" onfocus="if (this.value == &#039;Zip code&#039;) {this.value = &#039;&#039;;}" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Zip code&#039;;}" type="text" id="edit-zipcode" name="zipcode" value="Zip code" size="60" maxlength="128" /></div></div></div><div class="remove-padding text-left"><span id= "captcha-error"></span><input class="input-padding" type="hidden" name="captcha_error_msg" value="" />
+</div><input type="hidden" name="_clientID" value="7213759" />
+<input type="hidden" name="Source" value="HLT_footer" />
+<input type="hidden" name="Optin_Flag" value="true" />
+<input type="hidden" name="Newsletter_Name" value="HEALTHY_LIVING" />
+<input type="hidden" name="_action" value="add" />
+<input type="hidden" name="_deExternalKey" value="Newsletter_Staging" />
+<input type="hidden" name="form_build_id" value="form-71DY4hBiefKr1RWOKqTIBKJo48Cmba50fPYTA6rLNmI" />
+<input type="hidden" name="form_id" value="ti_lsg_hlt_newsletters_signup_responsive_form" />
+<div id="google_recaptcha_ti_lsg_hlt_newsletters_signup_responsive_form"></div><div class="remove-padding-button"><button class="btn-primary form-control input-padding btn btn-default form-submit" type="submit" id="edit-submit--3" name="op" value="Sign up">Sign up</button>
+<div class="no-thanks"><a href="#">No Thanks</a></div></div></div>
+    <div class='legal'>
+      <a target='_blank' href='https://subscription.timeinc.com/storefront/privacy/health/generic_privacy_new.html?dnp-source=E'>
+        PRIVACY POLICY
+      </a>
+    </div></div></div></form>                </div>
+              </div>
+            </div>
+            <!--Yieldmo Footer -->
+            <div class ="row vcenter space-above-yieldmo">
+              <div id="ym_1062966361814579671" class="ym"></div><script type="text/javascript">(function(e,t){if(t._ym===void 0){t._ym="";var m=e.createElement("script");m.type="text/javascript",m.async=!0,m.src="//static.yieldmo.com/ym.m1.js",(e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m)}else t._ym instanceof String||void 0===t._ym.chkPls||t._ym.chkPls()})(document,window);</script>            </div>
+            <!--Contnet Feed -->
+            <div class="row vcenter space-above-first">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/benefits-of-fish">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1477946985/GettyImages-507450001.jpg?itok=LC1bJOaI 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1477946985/GettyImages-507450001.jpg?itok=6tp5ixp7 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1477946985/GettyImages-507450001.jpg?itok=BiWamyft 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1477946985/GettyImages-507450001.jpg?itok=LC1bJOaI" alt="salmon-satay-fish-food" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/benefits-of-fish"><h3><p>Good News: Americans Are (Finally) Eating More Fish </p>
+</h3></a>
+    <p class="content-time">2 hours ago</p>
+  </div>
+</div>
+<div class='health-ad-placeholder inline-ad content-feed-ad'></div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/omega-3-balance">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/gettyimages-545415812_0_0.jpg?itok=B_cvTQYj 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/styles/main/public/gettyimages-545415812_0_0.jpg?itok=anDJaiV9 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/styles/main/public/gettyimages-545415812_0_0.jpg?itok=X4r1JHek 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/gettyimages-545415812_0_0.jpg?itok=B_cvTQYj" alt="omega-3-fish-salmon-healthy-eating" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/omega-3-balance"><h3><p>Eating Too Many Omega-6s Could Be Wrecking Your Health. Here’s How to Fix It</p>
+</h3></a>
+    <p class="content-time">1 day ago</p>
+  </div>
+</div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/eating-bugs-iron-protein">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1477679033/GettyImages-108152543.jpg?itok=iBi4fM9J 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1477679033/GettyImages-108152543.jpg?itok=9Of3jg6u 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1477679033/GettyImages-108152543.jpg?itok=KjMNWbsw 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1477679033/GettyImages-108152543.jpg?itok=iBi4fM9J" alt="grasshopper-fried-food" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/eating-bugs-iron-protein"><h3><p>It&#39;s as Healthy to Eat Bugs as It Is to Eat Steak, Study Says</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div id="ad-nativo" class="row vcenter space-above"> </div><div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/this-compound-in-broccoli-can-slow-aging">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1462549357/GettyImages-85732664_0.jpg?itok=5ulsqoAx 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1462549357/GettyImages-85732664_0.jpg?itok=YP15x0JE 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1462549357/GettyImages-85732664_0.jpg?itok=y__osO-f 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1462549357/GettyImages-85732664_0.jpg?itok=5ulsqoAx" alt="" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/this-compound-in-broccoli-can-slow-aging"><h3><p>How This Broccoli Enzyme Can Slow Aging</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/add-egg-to-salad-boost-vitamin-e">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/gettyimages-129232405.jpg?itok=vGS7B8-U 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/styles/main/public/gettyimages-129232405.jpg?itok=HD7V5i2j 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/styles/main/public/gettyimages-129232405.jpg?itok=ZYD8tzF0 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/gettyimages-129232405.jpg?itok=vGS7B8-U" alt="salmon-salad-healthy-eating" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/add-egg-to-salad-boost-vitamin-e"><h3><p>Why You Should Really Be Putting an Egg On Your Salad</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div class='health-ad-placeholder feed-promo-unit'></div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/maca-info">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/gettyimages-589547792.jpg?itok=Ut4W0mZl 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/styles/main/public/gettyimages-589547792.jpg?itok=0hI3UZvJ 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/styles/main/public/gettyimages-589547792.jpg?itok=JAyggdAs 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/styles/main/public/gettyimages-589547792.jpg?itok=Ut4W0mZl" alt="maca-powder-power" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/maca-info"><h3><p>What the Heck Is Maca? 4 Things to Know About the Trendy Superfood</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/egg-yolks-cholesterol">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1466541286/GettyImages-152831126_0.jpg?itok=jPfxODWH 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1466541286/GettyImages-152831126_0.jpg?itok=5GmjKJvp 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1466541286/GettyImages-152831126_0.jpg?itok=oTqqMKx8 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1466541286/GettyImages-152831126_0.jpg?itok=jPfxODWH" alt="soft-boiled-egg-open" />          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/egg-yolks-cholesterol"><h3><p>Why You Need to Stop Eating Egg Whites</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/healthy-juicing">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1476886721/what-is-juicing.jpg?itok=12iX_BaW 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1476886721/what-is-juicing.jpg?itok=MPKch3Y5 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1476886721/what-is-juicing.jpg?itok=hmsdyb8h 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1476886721/what-is-juicing.jpg?itok=12iX_BaW" alt="what-is-juicing-video" />              <p class="content-feed-play">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#fff" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+ -            <path d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14.5c-3.59 0-6.5-2.91-6.5-6.5s2.91-6.5 6.5-6.5 6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5zM6 4.5l6 3.5-6 3.5z"></path>
+ -        </svg>
+        </p>
+          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/healthy-juicing"><h3><p>Is Juicing Really Healthy?</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/pros-cons-paleo-diet">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1476886721/what-an-rd-really-thinks-of-the-paleo-diet.jpg?itok=J3hiUV7u 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1476886721/what-an-rd-really-thinks-of-the-paleo-diet.jpg?itok=sgwXPWTm 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1476886721/what-an-rd-really-thinks-of-the-paleo-diet.jpg?itok=diHxLgSR 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1476886721/what-an-rd-really-thinks-of-the-paleo-diet.jpg?itok=J3hiUV7u" alt="what-an-rd-really-thinks-of-the-paleo-diet-video" />              <p class="content-feed-play">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#fff" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+ -            <path d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14.5c-3.59 0-6.5-2.91-6.5-6.5s2.91-6.5 6.5-6.5 6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5zM6 4.5l6 3.5-6 3.5z"></path>
+ -        </svg>
+        </p>
+          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/pros-cons-paleo-diet"><h3><p>What an RD Really Thinks of the Paleo Diet</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+<div class="row vcenter space-above">
+  <div class="col-sm-5 col-md-5 col-xs-12">
+    <a href="/nutrition/clean-eating">
+      <img class="center-block" data-srcset="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1466613897/GettyImages-553200715.jpg?itok=MLqjSlpd 500w, http://cdn-img.health.com/sites/default/files/styles/small_16_9/public/1466613897/GettyImages-553200715.jpg?itok=XQqlRVGO 768w, http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/1466613897/GettyImages-553200715.jpg?itok=pcQfzQpb 2x" src="http://cdn-img.health.com/sites/default/files/styles/smallest_16_9/public/1466613897/GettyImages-553200715.jpg?itok=MLqjSlpd" alt="healthy-diet-vegetable-salad" />              <p class="content-feed-play">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#fff" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+ -            <path d="M8 0c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zM8 14.5c-3.59 0-6.5-2.91-6.5-6.5s2.91-6.5 6.5-6.5 6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5zM6 4.5l6 3.5-6 3.5z"></path>
+ -        </svg>
+        </p>
+          </a>
+  </div>
+  <div class="col-sm-7 col-md-7 col-xs-12 label-over-image">
+          <label class="label label-black label-link"><a href="/nutrition">Nutrition</a></label>
+        <a href="/nutrition/clean-eating"><h3><p>What Is Clean Eating?</p>
+</h3></a>
+    <p class="content-time"></p>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+        <footer class="footer container">
+    <div class="footer-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-3 col-md-3">
+       <ul><li><a href="http://www.health.com/service/about" title="">About Us</a></li>
+<li><a href="https://secure.customersvc.com/servlet/Show?WESPAGE=ha/home.html&amp;MSRSMAG=HA" id="" rel="nofollow" class="" style="" target="" title="">Customer Service</a></li>
+<li><a href="http://www.health.com/microsites/buzz/index.html" title="">Health Spotlight</a></li>
+<li><a href="http://www.health.com/health/wp/0%2C%2C20802680%2C00.html" id="" rel="nofollow" class="" style="" target="" title="">Social Media Terms</a></li>
+<li><a href="http://www.timeinc.com/careers/" id="" rel="nofollow" class="" style="" target="" title="">Time Inc Careers</a></li>
+</ul>      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3">
+       <ul><li><a href="http://www.health.com/service/contact-us" title="">Contact Us</a></li>
+<li><a href="http://www.health.com/service/help" title="">Help</a></li>
+<li><a href="http://www.health.com/health/wp/0%2C%2C20483796%2C00.html" title="">Sweepstakes</a></li>
+<li><a href="http://www.health.com/service/newsletter" title="">Newsletters</a></li>
+</ul>      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3 clear">
+       <ul><li><a href="http://www.health.com/microsites/magazine/fullmediakit.pdf" title="">Advertise With Health</a></li>
+<li><a href="http://subscription-assets.health.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/ha-dp2011/lp.html?xid=decisionpagemagpage" id="" rel="nofollow" class="" style="" target="" title="">Tablet Edition</a></li>
+<li><a href="http://www.health.com/sitemap" title="">Site Map</a></li>
+<li><a href="http://www.health.com/rss" title="">RSS News Feeds</a></li>
+</ul>      </div>
+
+      <div class="col-xs-6 col-sm-3 col-md-3">
+       <ul><li><a href="https://subscription.health.com/storefront/subscribe-to-health/link/1008195.html" id="" rel="nofollow" class="" style="" target="" title="">Subscribe</a></li>
+<li><a href="https://subscription.health.com/storefront/subscribe-to-health/link/1010821.html" id="" rel="nofollow" class="" style="" target="" title="">Give a Gift</a></li>
+<li><a href="https://secure.customersvc.com/servlet/Show?WESPAGE=ha/home.html&amp;MSRSMAG=HA" id="" rel="nofollow" class="" style="" target="" title="">Renew Your Subscription</a></li>
+<li><a href="http://www.health.com/health/service/magazine" title="">Health Magazine</a></li>
+</ul>      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-bottom-content">
+  <div class="container">
+    <div class="row">
+      <p class="text-center">© 2016 Health Media Ventures, Inc. Health.com is part of the Time Inc. Food Collection and the Time Inc. Lifestyle Network. All Rights Reserved.</p>
+      <p class="text-center">The Material in this site is intended to be of general informational use and is not intended to constitute medical advice, probable diagnosis, or recommended treatments.</p>
+      <p class="terms-services text-center">See the 
+        <a href="http://www.timeinc.net/subs/privacy/termsofservice/healthtos.html" rel="nofollow">Terms of Service</a> 
+        and <a href="https://subscription.timeinc.com/storefront/privacy/health/generic_privacy_new.html?dnp-source=E" rel="nofollow">Privacy Policy</a> 
+        (<a href="https://subscription.timeinc.com/storefront/privacy/health/generic_privacy_new.html?dnp-source=E#california" rel="nofollow">Your California Privacy Rights</a>) for more information. <a href="http://subscription-assets.timeinc.com/prod/assets/themes/magazines/default/template-resources/html/legal/ti-corp-behavioral.html" rel="nofollow">Ad Choices</a></p>
+    </div>
+  </div>
+</div>
+  </footer>
+</div>
+      <div class="region region-page-bottom">
+    <script type='text/javascript'>if (window.googletag && googletag.apiReady) {
+        googletag.cmd.push(function() {
+          googletag.pubads().addEventListener('impressionViewable', function(event) {
+            window.adsViewableTime = window.adsViewableTime || Date.now()
+          });
+          googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+            window.adsShownTime = window.adsShownTime || Date.now()
+          })
+        })
+      }
+      window.addEventListener('load', function() {
+        if (newrelic && performance && performance.timing) {
+          if (window.chrome) {
+            var loadTimes = window.chrome.loadTimes();
+            if (loadTimes && loadTimes.firstPaintTime && loadTimes.startLoadTime) {
+              newrelic.setCustomAttribute('FirstPaint', loadTimes.firstPaintTime - loadTimes.startLoadTime);
+            }
+          }
+          newrelic.setCustomAttribute('AdsViewableTime', (window.adsViewableTime - performance.timing.navigationStart) / 1000.0);
+          newrelic.setCustomAttribute('AdsShownTime', (window.adsShownTime - performance.timing.navigationStart) / 1000.0);
+          newrelic.setCustomAttribute('PerceivedLoadTime', (performance.timing.domContentLoadedEventEnd - performance.timing.navigationStart) / 1000.0);
+        }
+      }, false)</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7fc7d5aa08","applicationID":"12944043","transactionName":"YFABN0tQCxJQUkEMXVkaIgBNWAoPHkFUAldoWAINWFYAE25fWgFXaEMKBk5uFQBWVA==","queueTime":0,"applicationTime":641,"atts":"TBcCQQNKGBw=","errorBeacon":"bam.nr-data.net","agent":""}</script>  </div>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__NIYM8ex2FsHAxNtXKougJRPE2XrkliMdA2l5jGQhSD0__Gcu5htqAoy759ParrBIytfRxheXPsOzCfWvEm5wc4N0__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript" src="//tia.timeinc.net/health/tia_tgx.min.js"></script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__7A-ff0w_FgInPKnlsuFx1XjkrwX9bo9_4lvgZtKsdlE__QQVgQN8W6XrdpVlSl8-R2GMmCxHsXyL26DN-zAT3DsA__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript" src="//cdn-js.health.com//sites/all/modules/custom/ti_image_lazy_load/js/ti-image-lazy-load.js?ofz791"></script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__amTzwSyV8dWeCbN6RoPqoOb0PrV5uJFqI1SSbtVMQ6A__aBe1zN84lqNUZoIc871UHJNfK8abccWihWZ6ZXjAGvk__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript" src="//widgets.outbrain.com/outbrain.js"></script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__T4SxqEXbE6aHY9u9UtBCMBzbHzn2S6QDzxJIuc0FcrI__Usf5Ajm9z0llBWuDM-1Qstg3M5WlmMomMw75Ue4_Hyk__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var google_recaptcha_onload = function() {grecaptcha.render("google_recaptcha_ti_lsg_hlt_newsletters_signup_responsive_form", {
+    "sitekey" : "6Lc22SgTAAAAAOTRlwFsUSl36pG1f21mlsndldU3", 
+    "size" : "normal", 
+    "theme" : "light"});
+  };
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__7AyWf3fX_Il-8Dp13gN5hTXbOw-yhdjMyfQge4aLryY__RHIF3wYtkRgl9Vk_xKMcuLxSllRegFZmDAj49uoEVsw__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript" defer="defer" async="async" src="//assets.pinterest.com/js/pinit.js"></script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__Rw19kzRcDJEjOd2buQXMvWA0yijTfXxZGKst8vBFOic__6BqSS_P7zKdC0wIIrWCw7U1YXV-ZFBPB-ZgJbBfKMpQ__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+<script type="text/javascript" defer="defer" src="//www.google.com/recaptcha/api.js?onload=google_recaptcha_onload&amp;render=explicit&amp;hl=en"></script>
+<script type="text/javascript" src="//cdn-js.health.com/sites/default/files/advagg_js/js__PVLnouEQPjnTM2Hn-5BuPa8WSSSyxdPfUMCp654Ve9c__r2gYY27tP6t8we4FEDMhwrZj-2TCo5Ok2iazRwcL5XM__VzwMLiNubXy_ov9vqZQAILSLfjrLEisAPwB2KwDGPUk.js"></script>
+  </body>
+</html>
