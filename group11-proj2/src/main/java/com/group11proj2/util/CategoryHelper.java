@@ -29,6 +29,11 @@ public class CategoryHelper {
         return StringUtils.join(Arrays.copyOfRange(nodes, 0, nodes.length-1), "/");
     }
 
+    public static String getLeaf(String category) {
+        String[] nodes = category.split("/");
+        return nodes[nodes.length - 1];
+    }
+
     private void init() throws IOException {
         String[] root = {"Root/Computers", "Root/Health", "Root/Sports"};
         subcategories.put("Root", Arrays.asList(root));

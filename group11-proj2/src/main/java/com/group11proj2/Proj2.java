@@ -15,7 +15,7 @@ public class Proj2 {
 
     public static void main(String[] args) throws Exception {
         String accountKey = args[0];
-        Double specifityThreshold = Double.parseDouble(args[1]);
+        Double specificityThreshold = Double.parseDouble(args[1]);
         Integer coverageThreshold = Integer.parseInt(args[2]);
         String website = args[3];
 
@@ -26,28 +26,32 @@ public class Proj2 {
 
         System.out.println("Classifying...");
         QProber qb = new QProber(new BingService(accountKey), cachePath);
-        ProbeResult probe = qb.probe(specifityThreshold, coverageThreshold, website);
+        ProbeResult probe = qb.probe(specificityThreshold, coverageThreshold, website);
 
         List<String> classification = probe.getClassification();
         System.out.println();
         System.out.println("Classification:");
-        String category = classification.get(classification.size() - 1);
-        System.out.println(category);
+        for (String category : classification) {
+            System.out.println(category);
+        }
 
+        Set<String> visited = new HashSet<String>();
         System.out.println();
         System.out.println("Extracting topic content summaries...");
-        Set<String> docSample;
-        do {
-            docSample = probe.getDocumentSample(category);
-            if (docSample.size() > 0) {
-                String[] nodes = category.split("/");
-                String leaf = nodes[nodes.length-1];
-                System.out.println("Creating Content Summary for:" + leaf);
-                System.out.println();
-                WebHelper.getInstance().constructContentSummary(leaf + "-" + website +  ".txt", docSample, cachePath);
+        for (String category : classification) {
+            Set<String> docSample;
+            while (!category.equals("") && !visited.contains(category)) {
+                visited.add(category);
+                docSample = probe.getDocumentSample(category);
+                if (docSample.size() > 0) {
+                    String leaf = CategoryHelper.getLeaf(category);
+                    System.out.println("Creating Content Summary for:" + leaf);
+                    System.out.println();
+                    WebHelper.getInstance().constructContentSummary(leaf + "-" + website + ".txt", docSample, cachePath);
+                }
+                category = CategoryHelper.getParent(category);
             }
-            category = CategoryHelper.getParent(category);
-        } while(!category.equals(""));
+        }
 
         return;
     }
