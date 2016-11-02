@@ -6,8 +6,6 @@ import com.group11proj2.services.QProber;
 import com.group11proj2.util.CategoryHelper;
 import com.group11proj2.util.WebHelper;
 
-import java.io.File;
-import java.security.CodeSource;
 import java.util.*;
 
 public class Proj2 {
@@ -21,9 +19,10 @@ public class Proj2 {
         Integer coverageThreshold = Integer.parseInt(args[2]);
         String website = args[3];
 
-        CodeSource codeSource = Proj2.class.getProtectionDomain().getCodeSource();
-        File jarFile = new File(codeSource.getLocation().toURI().getPath());
-        String cachePath = jarFile.getParentFile().getPath() + "/cache";
+//        CodeSource codeSource = Proj2.class.getProtectionDomain().getCodeSource();
+//        File jarFile = new File(codeSource.getLocation().toURI().getPath());
+//        String cachePath = jarFile.getParentFile().getPath() + "/cache";
+        String cachePath = "cache";
 
         System.out.println("Classifying...");
         QProber qb = new QProber(new BingService(accountKey), cachePath);
