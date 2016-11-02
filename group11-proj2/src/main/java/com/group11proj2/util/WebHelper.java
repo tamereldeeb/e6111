@@ -49,7 +49,7 @@ public class WebHelper {
     }
 
     public void processURLContents(String cachePath, String url, Map<String, Integer> docFreqCount) {
-        if (!url.contains("https")) {
+        if (!(url.contains("https") || url.contains(".pdf"))) {
             String temp = url.replace("http://", "");
             if (!temp.contains(".html")) {
                 temp += ".html";

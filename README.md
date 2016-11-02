@@ -14,7 +14,8 @@
 
 ## Run Instructions
 
-1. cd to project root
+1. log into server and check `mvn -version` to make sure it is using Java version 1.7 (some servers are not and the build will fail)
+2. cd to project root
 3. package program: <br/>`mvn clean package`
 4. execute jar: <br/>`java -jar target/project2-1.0-SNAPSHOT.jar <bing account key> <t_es> <t_ec> <host>`
 
