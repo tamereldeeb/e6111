@@ -6,13 +6,13 @@ import java.io.*;
 import java.net.URL;
 import java.util.*;
 
-public class WebHelper {
+public class ContentSummarizer {
 
-    private static WebHelper instance = null;
+    private static ContentSummarizer instance = null;
 
-    public static WebHelper getInstance() throws Exception {
+    public static ContentSummarizer getInstance() throws Exception {
         if (instance == null) {
-            instance = new WebHelper();
+            instance = new ContentSummarizer();
             instance.init();
         }
         return instance;

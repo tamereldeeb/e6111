@@ -4,7 +4,7 @@ import com.group11proj2.models.ProbeResult;
 import com.group11proj2.services.BingService;
 import com.group11proj2.services.QProber;
 import com.group11proj2.util.CategoryHelper;
-import com.group11proj2.util.WebHelper;
+import com.group11proj2.util.ContentSummarizer;
 
 import java.util.*;
 
@@ -47,7 +47,7 @@ public class Proj2 {
                     String leaf = CategoryHelper.getLeaf(category);
                     System.out.println("Creating Content Summary for:" + leaf);
                     System.out.println();
-                    WebHelper.getInstance().constructContentSummary(leaf + "-" + website + ".txt", docSample, cachePath);
+                    ContentSummarizer.getInstance().constructContentSummary(leaf + "-" + website + ".txt", docSample, cachePath);
                 }
                 category = CategoryHelper.getParent(category);
             }

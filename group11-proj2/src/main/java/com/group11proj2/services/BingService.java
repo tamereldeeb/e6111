@@ -156,7 +156,7 @@ public class BingService {
 
 	private String buildUrl(String website, String query) {
 		StringBuilder sb = new StringBuilder();
-		sb.append("https://api.datamarket.azure.com/Bing/Search/Web?Query=%27site%3a");
+		sb.append("https://api.datamarket.azure.com/Bing/SearchWeb/v1/Web?Query=%27site%3a");
 		sb.append(website);
 		sb.append("%20");
 		try {
