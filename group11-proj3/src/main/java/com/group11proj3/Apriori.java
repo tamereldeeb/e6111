@@ -4,7 +4,9 @@ import java.util.*;
 
 public class Apriori {
 
-    public static void computeFrequentItemSets(List<List<String>> marketBaskets, double minSupport) {
+    public static Map<ItemSet, Double> computeFrequentItemSets(List<List<String>> marketBaskets, double minSupport) {
+        Map<ItemSet, Double> result = new TreeMap<ItemSet, Double>();
+
         ArrayList<List<ItemSet>> L = new ArrayList<List<ItemSet>>();
         L.add(new ArrayList<ItemSet>());
         L.get(0).add(new ItemSet(new ArrayList<String>()));
@@ -68,6 +70,13 @@ public class Apriori {
             }
 
         }
+
+        for (int x = 1; x < L.size(); x++) {
+            for (ItemSet s : L.get(x)) {
+                result.put(s, s.getSupport());
+            }
+        }
+        return result;
     }
 
     private static void updateSupported(List<String> marketBasket, int length, Map<ItemSet, Integer> candidates) {
