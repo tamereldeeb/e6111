@@ -1,7 +1,6 @@
 package com.group11proj3;
 
 import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 
 import java.io.*;
@@ -10,9 +9,9 @@ import java.util.*;
 public class Proj3 {
 
     public static void main(String[] args) throws Exception {
-        double supportThreshold = 0.008;
-        double confidenceThreshold = 0.50;
-        String integratedDatasetFile = "INTEGRATED-DATASET2.csv";
+        String integratedDatasetFile = args[0];
+        Double supportThreshold = Double.parseDouble(args[1]);
+        Double confidenceThreshold = Double.parseDouble(args[2]);
 
         List<List<String>> baskets = readDataset(integratedDatasetFile);
 
@@ -128,14 +127,14 @@ public class Proj3 {
                 }
                 writer.write(r.getLhs().get(i));
             }
-            writer.write("]=>[");
+            writer.write("] => [");
             for (int i = 0; i < r.getRhs().size(); i++) {
                 if (i != 0) {
                     writer.write(",");
                 }
                 writer.write(r.getRhs().get(i));
             }
-            writer.write("]");
+            writer.write("] ");
             writer.write("(Conf: ");
             writer.write((r.getConfidence() * 100) + "%");
             writer.write(", Supp: ");
