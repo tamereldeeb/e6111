@@ -10,9 +10,9 @@ import java.util.*;
 public class Proj3 {
 
     public static void main(String[] args) throws Exception {
-        double supportThreshold = 0.7;
-        double confidenceThreshold = 0.8;
-        String integratedDatasetFile = "INTEGRATED-DATASET.csv";
+        double supportThreshold = 0.008;
+        double confidenceThreshold = 0.50;
+        String integratedDatasetFile = "INTEGRATED-DATASET2.csv";
 
         List<List<String>> baskets = readDataset(integratedDatasetFile);
 

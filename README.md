@@ -1,4 +1,4 @@
-# Project 2 Group 11
+# Project 3 Group 11
 
 ## Team Members
 - Tamer Eldeeb, `te2251`
@@ -6,41 +6,85 @@
 
 
 ## Files in Submission
-- group11-proj2
+- group11-proj3
 	- src
 	- pom.xml
 - README.md
+- INTEGRATED-DATASET.csv
+- sample-output.txt
 
+## Dataset Description
+We use the NYC's Department of Health Restaurant Inspection result database (available here: https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/xx67-kt59).
+We only use the following columns which fit nicely in the market basket model:
+
+- DBA
+- BORO
+- ZIPCODE
+- CUISINE DESCRIPTION
+- VIOLATION CODE
+- CRITICAL FLAG
+
+We believe the dataset could provide interesting insights in two areas:
+One is to help identify whether a specific category of restaurants tends to have more critical inspection results (e.g. by location and/or cuisine) which could help DOH prioritize how to schedule their limited resources to do inspections.
+The other area is to help identify correlations between a geographic location and the type of cuisine. This could be helpful for targeted marketing opportunities.
+
+In addition to this, the dataset was also helpful in testing our implementation of apriori and association rule mining. There are rules that we know to be correct (zipcode => BORO), and we were able to verify that they were correctly extracted by our program.
 
 ## Run Instructions
 
 1. log into server and check `mvn -version` to make sure it is using Java version 1.7 (some servers are not and the build will fail)
 2. cd to project root
 3. package program: <br/>`mvn clean package`
-4. execute jar: <br/>`java -jar target/project2-1.0-SNAPSHOT.jar <bing account key> <t_es> <t_ec> <host>`
+4. execute jar: <br/>`java -jar target/project3-1.0-SNAPSHOT.jar <csv> <min_support> <min_confidence>`
 
 
 
 ## Internal Design
-This project classifies a web database using the QProber algorithm, and constructs a document summary for every category the database is classified into.
+We define an ItemSet class which represents an item set. Internally, it is a sorted list of strings. We define comparison operation between two item sets of the same size; which compares their items lexicographically one by one. This allows us to have a defined sorted order.
+In addition we define the Join operation which takes two item sets that share a prefix (i.e. they have equal size and all elements in their lists are identical except the last one), and creates a new Item Set that is the union of the two.
+<br />
+Our Apriori algorithm implementation computes an array L, where L[i] is a sorted list of frequent itemsets of size i and their support. The algorithm works as follows:
 
-<br/> <br/>
-The Bing Search API is used to issue query probes to a given web database and retrieve the total number of results for the probe as well as the top web results. The project includes a utility class called BingService that provides this functionality. It accepts a website and a query, and searches the website using Bing APIs.
+1- We initialize by computing L[1] by going through all market baskets and counting how many market baskets contain each item.
+2- Starting with i=2, and until L[i-1] is not empty we apply the apriori algorithm to compute L[i]. There are two steps:
+   a- Candidate Generation. We use the algorithm described in section 2.1.1 of the Agrawal and Srikant paper in VLDB 1994.
+      In particular, we use the Join operation we described above. Given that we maintain L[i-1] in sorted order, for an item set L[i-1][j], all the sets that are potentially joinable with it are either immediately preceding or following it in L[i-1].
+      Thus, we use the following algorithm to generate all candidates for L[i]:
+      for (int x = 0; x < L[i-1]; x++) {
+          for (int y = x-1; y >= 0; y--) {
+	      if (L[i-1][x].isJoinable(L[i-1][y])) {
+	          generate candidate by joining L[i-1][x] and L[i-1][y]
+	      }
+	  }
+       }
 
-<br/> <br/>
-The main component of this project is the QProber class. This implements the QProber procedure. For a given website, specificity threshold and coverage threshold it uses the BingService internally to issue (pre-defined) query probes to the website and classify the website into appropriate categories as defined by the algorithm. Note that a website can be classified into multiple categories, and if a website is classified in a subcategory (e.g. Root/Health/Fitness) this means it is also classified in all parent categories (i.e. Root and Root/Health). The QProber output thus only explicitly specifies the inner-most classification(s) (e.g. Root/Health/Fitness).
+    b- Pruning. In this step we remove candidates that do not meet the minimum support bar.
+       We go through all the market baskets once, and for each market basket we increment the support for all item sets supported by that basket.
+       Finally, we go through all the candidates and drop ones whose support is below the minimum support required.
+<br />
+Finally, for all frequent item sets generated by our apriori implementation we generate association rules.
+A candidate association rule is generated by assigning a (non-empty, proper) subset of the frequent item set to be the LHS, and the rest to be the RHS. We have the support for both LHS and (LHS U RHS) as part of the apriori output, which we can use to compute confidence.
 
-<br/> <br/>
-In addition to classifying the website, QProber also constructs a document sample (list of urls) for all categories the website was classified into as defined in the part 2-a of the project description.
+## Sample Run
+java -jar target/project3-1.0-SNAPSHOT.jar INTEGRATED-DATASET.csv 0.08 0.57
 
-<br/> <br/>
-The final step is using the document sample generated by QProber to construct document summaries. The component responsible for this is the ContentSummarizer class. Given a category and its document sample (list of urls), it fetches the document and computes the document frequency for every word and finally produces an output document summary file.
+We highlight the following interesting results of this run:
+
+We found that the support for critical inspection result to be: [Critical], 54.82061189267387%
+
+There were rules that show higher confidence than the ~54.8%, indicating they are higher than average and may warrant more scrutiny by DOH, e.g.:
+
+[Chinese,MANHATTAN]=>[Critical](Conf: 61.62721642487485%, Supp: 1.6627219747570237%)
+[Chinese,QUEENS]=>[Critical](Conf: 58.29380580357143%, Supp: 1.9129085274014932%)
+[Japanese]=>[Critical](Conf: 57.50031997952131%, Supp: 2.0566570681706855%)
+[Pizza/Italian]=>[Critical](Conf: 57.92782052671508%, Supp: 1.2234648891900182%)
 
 
-<br/><br/>
-Notes: <br/>
-- Unlike the reference implementation, we do not include multiple word query probes in the document summary output. <br/>
-- We implement caching for both Bing results as well as for the content of actual pages retrieved to construct document summaries.
+One other interesting observation is that even though Manhattan has significantlly more support overall than all other boros:
+[MANHATTAN], 39.94652920521706%
+[BROOKLYN], 24.387123060653643%
+[QUEENS], 23.444974981344735%
 
-## Bing Search Account Key
+a significant majority of Korean restaurants happen to be in Queens:
+[Korean]=>[QUEENS](Conf: 62.51511487303506%, Supp: 0.8283853010250095%)
 `4LqedL4leJhU1WKa1lSuKxpbEGlvWxFZjXYc++Xk4sk`
